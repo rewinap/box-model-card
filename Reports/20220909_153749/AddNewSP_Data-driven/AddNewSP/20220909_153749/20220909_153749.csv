@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AddNewSP,Chrome 105.0.0.0,,,2022-09-09 15:38:21,2022-09-09 15:40:51,2m - 30.510s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Add New Service Provider/Add New SP with valid data,Chrome 105.0.0.0,,,2022-09-09 15:38:21,2022-09-09 15:38:58,37.101s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-09 15:38:22,2022-09-09 15:38:58,36.465s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Add New Service Provider/Add New SP with valid data,Chrome 105.0.0.0,,,2022-09-09 15:38:58,2022-09-09 15:39:16,17.683s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-09 15:38:58,2022-09-09 15:39:16,17.666s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Add New Service Provider/Add New SP with valid data,Chrome 105.0.0.0,,,2022-09-09 15:39:16,2022-09-09 15:39:29,12.778s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-09 15:39:16,2022-09-09 15:39:29,12.753s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Add New Service Provider/Add New SP with valid data,Chrome 105.0.0.0,,,2022-09-09 15:39:29,2022-09-09 15:39:59,29.449s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-09 15:39:29,2022-09-09 15:39:59,29.434s,FAILED
+,,,,,,,
+Test Cases/PreCondition/Add New SP with invalid Parameter,Chrome 105.0.0.0,,,2022-09-09 15:39:59,2022-09-09 15:40:51,52.316s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-09 15:39:59,2022-09-09 15:40:51,51.817s,FAILED

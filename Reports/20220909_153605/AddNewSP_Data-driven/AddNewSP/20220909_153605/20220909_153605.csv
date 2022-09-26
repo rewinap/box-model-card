@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AddNewSP,Chrome 105.0.0.0,,,2022-09-09 15:36:37,2022-09-09 15:36:59,22.020s,FAILED
+,,,,,,,
+Test Cases/PreCondition/Add New SP with invalid Parameter,Chrome 105.0.0.0,,,2022-09-09 15:36:38,2022-09-09 15:36:59,21.301s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 105.0.0.0,,,2022-09-09 15:36:38,2022-09-09 15:36:59,20.544s,FAILED

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Get List SP - Valid Data" time="66.111" tests="4" failures="0" errors="0">
+   <testsuite name="Get List SP - Valid Data" tests="4" failures="0" errors="0" time="66.111" skipped="0" timestamp="2022-07-26 11:00:27" hostname="User - LAPTOP-N3L575R3" id="Test Suites/Get List SP - Valid Data">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220726_105957\\Get List SP - Valid Data\\20220726_105957"/>
+         <property name="logFiles" value="D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220726_105957\\Get List SP - Valid Data\\20220726_105957\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - LAPTOP-N3L575R3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.134"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="e2cbe8ac84ad5e9956e38978ff7fb9ed"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All" time="17.069" classname="Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All" status="PASSED">
+         <system-out><![CDATA[2022-07-26 11:00:27 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All: Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All
+
+2022-07-26 11:00:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:00:28 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Login Internal-TMS: Test Cases/Customer-Internal TMS/Login Internal-TMS
+
+2022-07-26 11:00:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 11:00:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 11:00:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 11:00:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 11:00:32 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:00:34 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:00:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Company Email_email"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:00:35 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:00:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Password_password"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:00:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:00:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:00:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:00:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-26 11:00:37 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-26 11:00:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Arrow Management")): Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:00:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:00:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:00:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search List SP/Page_/Field Search"), validData): Text 'idn0098' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-07-26 11:00:42 - [MESSAGE][PASSED] - Text 'idn0098' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-07-26 11:00:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Search List SP/Page_/get Detail SP arrow"), 0): Object 'Object Repository/Search List SP/Page_/get Detail SP arrow' is present
+
+2022-07-26 11:00:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-26 11:00:43 - [MESSAGE][PASSED] - Object 'Object Repository/Search List SP/Page_/get Detail SP arrow' is present
+
+2022-07-26 11:00:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-26 11:00:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All" time="14.827" classname="Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All" status="PASSED">
+         <system-out><![CDATA[2022-07-26 11:00:44 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All: Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All
+
+2022-07-26 11:00:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:00:44 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Login Internal-TMS: Test Cases/Customer-Internal TMS/Login Internal-TMS
+
+2022-07-26 11:00:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 11:00:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 11:00:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 11:00:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 11:00:47 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:00:50 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:00:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Company Email_email"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:00:51 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:00:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Password_password"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:00:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:00:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:00:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:00:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-26 11:00:52 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-26 11:00:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Arrow Management")): Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:00:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:00:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search List SP/Page_/Field Search"), validData): Text 'test' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-07-26 11:00:58 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-07-26 11:00:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Search List SP/Page_/get Detail SP arrow"), 0): Object 'Object Repository/Search List SP/Page_/get Detail SP arrow' is present
+
+2022-07-26 11:00:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-26 11:00:58 - [MESSAGE][PASSED] - Object 'Object Repository/Search List SP/Page_/get Detail SP arrow' is present
+
+2022-07-26 11:00:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-26 11:00:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All" time="20.879" classname="Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All" status="PASSED">
+         <system-out><![CDATA[2022-07-26 11:00:59 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All: Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All
+
+2022-07-26 11:00:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:00:59 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Login Internal-TMS: Test Cases/Customer-Internal TMS/Login Internal-TMS
+
+2022-07-26 11:00:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 11:00:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 11:00:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 11:01:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 11:01:01 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:01:07 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:01:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Company Email_email"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:01:09 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:01:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Password_password"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:01:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:01:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:01:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:01:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-26 11:01:10 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-26 11:01:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Arrow Management")): Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:01:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:01:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search List SP/Page_/Field Search"), validData): Text 'hzn.one' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-07-26 11:01:19 - [MESSAGE][PASSED] - Text 'hzn.one' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-07-26 11:01:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Search List SP/Page_/get Detail SP arrow"), 0): Object 'Object Repository/Search List SP/Page_/get Detail SP arrow' is present
+
+2022-07-26 11:01:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-26 11:01:19 - [MESSAGE][PASSED] - Object 'Object Repository/Search List SP/Page_/get Detail SP arrow' is present
+
+2022-07-26 11:01:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-26 11:01:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All" time="12.77" classname="Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All" status="PASSED">
+         <system-out><![CDATA[2022-07-26 11:01:20 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All: Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All
+
+2022-07-26 11:01:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:01:20 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Login Internal-TMS: Test Cases/Customer-Internal TMS/Login Internal-TMS
+
+2022-07-26 11:01:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 11:01:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 11:01:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 11:01:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 11:01:22 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:01:24 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:01:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Company Email_email"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:01:25 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:01:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Password_password"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:01:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:01:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:01:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:01:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-26 11:01:26 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-26 11:01:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Arrow Management")): Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:01:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:01:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search List SP/Page_/Field Search"), validData): Text '822' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-07-26 11:01:31 - [MESSAGE][PASSED] - Text '822' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-07-26 11:01:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Search List SP/Page_/get Detail SP arrow"), 0): Object 'Object Repository/Search List SP/Page_/get Detail SP arrow' is present
+
+2022-07-26 11:01:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-26 11:01:32 - [MESSAGE][PASSED] - Object 'Object Repository/Search List SP/Page_/get Detail SP arrow' is present
+
+2022-07-26 11:01:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-26 11:01:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-26 11:00:27 - [TEST_SUITE][PASSED] - Get List SP - Valid Data: Test Cases/Customer-Internal TMS/Get List Customer with valid filter Search All]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

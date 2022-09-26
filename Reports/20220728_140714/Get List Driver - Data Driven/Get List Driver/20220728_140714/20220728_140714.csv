@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Get List Driver,Chrome 103.0.5060.134,,,2022-07-28 14:07:44,2022-07-28 14:09:36,1m - 52.620s,PASSED
+,,,,,,,
+Test Cases/Driver - Internal TMS/Integrate Internal - Get List Driver/Get List Driver With Invalid Filter Search,Chrome 103.0.5060.134,,,2022-07-28 14:07:45,2022-07-28 14:08:11,26.621s,PASSED
+"callTestCase(findTestCase(""PreCondition/Driver""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 14:07:45,2022-07-28 14:08:06,20.865s,PASSED
+"setText(findTestObject(""Object Repository/Get List Driver/Page_/DRiver_FilterSearch""), invalidDriverData)",Chrome 103.0.5060.134,,,2022-07-28 14:08:06,2022-07-28 14:08:09,2.774s,PASSED
+"verifyElementPresent(findTestObject(""Get List Driver/Page_/NothingFound""), 0)",Chrome 103.0.5060.134,,,2022-07-28 14:08:09,2022-07-28 14:08:10,0.697s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 14:08:10,2022-07-28 14:08:11,1.522s,PASSED
+,,,,,,,
+Test Cases/Driver - Internal TMS/Integrate Internal - Get List Driver/Get List Driver With Invalid Filter Search,Chrome 103.0.5060.134,,,2022-07-28 14:08:11,2022-07-28 14:08:44,32.430s,PASSED
+"callTestCase(findTestCase(""PreCondition/Driver""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 14:08:11,2022-07-28 14:08:40,28.964s,PASSED
+"setText(findTestObject(""Object Repository/Get List Driver/Page_/DRiver_FilterSearch""), invalidDriverData)",Chrome 103.0.5060.134,,,2022-07-28 14:08:40,2022-07-28 14:08:42,2.178s,PASSED
+"verifyElementPresent(findTestObject(""Get List Driver/Page_/NothingFound""), 0)",Chrome 103.0.5060.134,,,2022-07-28 14:08:42,2022-07-28 14:08:43,0.450s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 14:08:43,2022-07-28 14:08:44,0.821s,PASSED
+,,,,,,,
+Test Cases/Driver - Internal TMS/Integrate Internal - Get List Driver/Get List Driver With Valid Data in Filter Search,Chrome 103.0.5060.134,,,2022-07-28 14:08:44,2022-07-28 14:09:02,18.256s,PASSED
+"callTestCase(findTestCase(""PreCondition/Driver""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 14:08:45,2022-07-28 14:08:57,12.810s,PASSED
+"setText(findTestObject(""Get List Driver/Page_/DRiver_FilterSearch""), validDriverData)",Chrome 103.0.5060.134,,,2022-07-28 14:08:57,2022-07-28 14:09:00,2.893s,PASSED
+"verifyElementPresent(findTestObject(""Get List Driver/Page_/span_arrow_forward""), 0)",Chrome 103.0.5060.134,,,2022-07-28 14:09:00,2022-07-28 14:09:01,0.419s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 14:09:01,2022-07-28 14:09:02,1.235s,PASSED
+,,,,,,,
+Test Cases/Driver - Internal TMS/Integrate Internal - Get List Driver/Get List Driver With Valid Data in Filter Search,Chrome 103.0.5060.134,,,2022-07-28 14:09:02,2022-07-28 14:09:20,17.860s,PASSED
+"callTestCase(findTestCase(""PreCondition/Driver""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 14:09:02,2022-07-28 14:09:16,14.347s,PASSED
+"setText(findTestObject(""Get List Driver/Page_/DRiver_FilterSearch""), validDriverData)",Chrome 103.0.5060.134,,,2022-07-28 14:09:16,2022-07-28 14:09:19,2.170s,PASSED
+"verifyElementPresent(findTestObject(""Get List Driver/Page_/span_arrow_forward""), 0)",Chrome 103.0.5060.134,,,2022-07-28 14:09:19,2022-07-28 14:09:19,0.431s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 14:09:19,2022-07-28 14:09:20,0.898s,PASSED
+,,,,,,,
+Test Cases/Driver - Internal TMS/Integrate Internal - Get List Driver/Get List Driver With Valid Data in Filter Search,Chrome 103.0.5060.134,,,2022-07-28 14:09:20,2022-07-28 14:09:36,16.428s,PASSED
+"callTestCase(findTestCase(""PreCondition/Driver""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 14:09:20,2022-07-28 14:09:33,12.974s,PASSED
+"setText(findTestObject(""Get List Driver/Page_/DRiver_FilterSearch""), validDriverData)",Chrome 103.0.5060.134,,,2022-07-28 14:09:33,2022-07-28 14:09:35,1.748s,PASSED
+"verifyElementPresent(findTestObject(""Get List Driver/Page_/span_arrow_forward""), 0)",Chrome 103.0.5060.134,,,2022-07-28 14:09:35,2022-07-28 14:09:35,0.409s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 14:09:35,2022-07-28 14:09:36,1.280s,PASSED

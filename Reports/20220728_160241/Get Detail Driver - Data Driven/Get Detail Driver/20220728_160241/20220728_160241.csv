@@ -1,0 +1,102 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Get Detail Driver,Chrome 103.0.5060.134,,,2022-07-28 16:03:14,2022-07-28 16:07:33,4m - 19.312s,PASSED
+,,,,,,,
+Test Cases/Driver - Internal TMS/Integrate Internal - Get Detail Driver/Get Detail Driver,Chrome 103.0.5060.134,,,2022-07-28 16:03:15,2022-07-28 16:03:46,31.196s,PASSED
+"callTestCase(findTestCase(""PreCondition/Driver""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 16:03:16,2022-07-28 16:03:33,17.078s,PASSED
+"setText(findTestObject(""Get List Driver/Page_/DRiver_FilterSearch""), validDriverID)",Chrome 103.0.5060.134,,,2022-07-28 16:03:33,2022-07-28 16:03:36,2.988s,PASSED
+"verifyElementPresent(findTestObject(""Get List Driver/Page_/span_arrow_forward""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:03:36,2022-07-28 16:03:36,0.447s,PASSED
+"click(findTestObject(""Get List Driver/Page_/span_arrow_forward""))",Chrome 103.0.5060.134,,,2022-07-28 16:03:36,2022-07-28 16:03:38,1.445s,PASSED
+"verifyElementPresent(findTestObject(""Detail Driver/BodyDetailDriver""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:03:38,2022-07-28 16:03:44,5.817s,PASSED
+"verifyElementClickable(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:03:44,2022-07-28 16:03:44,0.695s,PASSED
+"click(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:03:44,2022-07-28 16:03:45,0.874s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 16:03:45,2022-07-28 16:03:46,0.894s,PASSED
+,,,,,,,
+Test Cases/Driver - Internal TMS/Integrate Internal - Get Detail Driver/Get Detail Driver,Chrome 103.0.5060.134,,,2022-07-28 16:03:46,2022-07-28 16:04:25,39.010s,PASSED
+"callTestCase(findTestCase(""PreCondition/Driver""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 16:03:46,2022-07-28 16:04:14,27.603s,PASSED
+"setText(findTestObject(""Get List Driver/Page_/DRiver_FilterSearch""), validDriverID)",Chrome 103.0.5060.134,,,2022-07-28 16:04:14,2022-07-28 16:04:19,4.798s,PASSED
+"verifyElementPresent(findTestObject(""Get List Driver/Page_/span_arrow_forward""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:04:19,2022-07-28 16:04:19,0.442s,PASSED
+"click(findTestObject(""Get List Driver/Page_/span_arrow_forward""))",Chrome 103.0.5060.134,,,2022-07-28 16:04:19,2022-07-28 16:04:21,1.661s,PASSED
+"verifyElementPresent(findTestObject(""Detail Driver/BodyDetailDriver""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:04:21,2022-07-28 16:04:23,2.408s,PASSED
+"verifyElementClickable(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:04:23,2022-07-28 16:04:23,0.417s,PASSED
+"click(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:04:23,2022-07-28 16:04:24,0.723s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 16:04:24,2022-07-28 16:04:25,0.927s,PASSED
+,,,,,,,
+Test Cases/Driver - Internal TMS/Integrate Internal - Get Detail Driver/Get Detail Driver,Chrome 103.0.5060.134,,,2022-07-28 16:04:25,2022-07-28 16:04:49,24.065s,PASSED
+"callTestCase(findTestCase(""PreCondition/Driver""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 16:04:25,2022-07-28 16:04:39,14.175s,PASSED
+"setText(findTestObject(""Get List Driver/Page_/DRiver_FilterSearch""), validDriverID)",Chrome 103.0.5060.134,,,2022-07-28 16:04:39,2022-07-28 16:04:43,3.555s,PASSED
+"verifyElementPresent(findTestObject(""Get List Driver/Page_/span_arrow_forward""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:04:43,2022-07-28 16:04:45,1.805s,PASSED
+"click(findTestObject(""Get List Driver/Page_/span_arrow_forward""))",Chrome 103.0.5060.134,,,2022-07-28 16:04:45,2022-07-28 16:04:45,0.473s,PASSED
+"verifyElementPresent(findTestObject(""Detail Driver/BodyDetailDriver""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:04:45,2022-07-28 16:04:47,1.806s,PASSED
+"verifyElementClickable(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:04:47,2022-07-28 16:04:47,0.440s,PASSED
+"click(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:04:47,2022-07-28 16:04:48,0.575s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 16:04:48,2022-07-28 16:04:49,1.208s,PASSED
+,,,,,,,
+Test Cases/Driver - Internal TMS/Integrate Internal - Get Detail Driver/Get Detail Driver,Chrome 103.0.5060.134,,,2022-07-28 16:04:49,2022-07-28 16:05:11,22.232s,PASSED
+"callTestCase(findTestCase(""PreCondition/Driver""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 16:04:49,2022-07-28 16:05:03,13.781s,PASSED
+"setText(findTestObject(""Get List Driver/Page_/DRiver_FilterSearch""), validDriverID)",Chrome 103.0.5060.134,,,2022-07-28 16:05:03,2022-07-28 16:05:06,3.262s,PASSED
+"verifyElementPresent(findTestObject(""Get List Driver/Page_/span_arrow_forward""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:05:06,2022-07-28 16:05:07,0.468s,PASSED
+"click(findTestObject(""Get List Driver/Page_/span_arrow_forward""))",Chrome 103.0.5060.134,,,2022-07-28 16:05:07,2022-07-28 16:05:08,1.493s,PASSED
+"verifyElementPresent(findTestObject(""Detail Driver/BodyDetailDriver""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:05:08,2022-07-28 16:05:10,1.325s,PASSED
+"verifyElementClickable(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:05:10,2022-07-28 16:05:10,0.421s,PASSED
+"click(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:05:10,2022-07-28 16:05:11,0.642s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 16:05:11,2022-07-28 16:05:11,0.824s,PASSED
+,,,,,,,
+Test Cases/Driver - Internal TMS/Integrate Internal - Get Detail Driver/Get Detail Driver,Chrome 103.0.5060.134,,,2022-07-28 16:05:12,2022-07-28 16:06:05,53.506s,PASSED
+"callTestCase(findTestCase(""PreCondition/Driver""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 16:05:12,2022-07-28 16:05:54,42.004s,PASSED
+"setText(findTestObject(""Get List Driver/Page_/DRiver_FilterSearch""), validDriverID)",Chrome 103.0.5060.134,,,2022-07-28 16:05:54,2022-07-28 16:05:57,3.521s,PASSED
+"verifyElementPresent(findTestObject(""Get List Driver/Page_/span_arrow_forward""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:05:57,2022-07-28 16:05:59,1.816s,PASSED
+"click(findTestObject(""Get List Driver/Page_/span_arrow_forward""))",Chrome 103.0.5060.134,,,2022-07-28 16:05:59,2022-07-28 16:06:00,0.594s,PASSED
+"verifyElementPresent(findTestObject(""Detail Driver/BodyDetailDriver""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:06:00,2022-07-28 16:06:02,2.895s,PASSED
+"verifyElementClickable(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:06:02,2022-07-28 16:06:03,0.566s,PASSED
+"click(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:06:03,2022-07-28 16:06:04,0.854s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 16:06:04,2022-07-28 16:06:05,1.234s,PASSED
+,,,,,,,
+Test Cases/Driver - Internal TMS/Integrate Internal - Get Detail Driver/Get Detail Driver,Chrome 103.0.5060.134,,,2022-07-28 16:06:05,2022-07-28 16:06:27,21.497s,PASSED
+"callTestCase(findTestCase(""PreCondition/Driver""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 16:06:05,2022-07-28 16:06:20,14.515s,PASSED
+"setText(findTestObject(""Get List Driver/Page_/DRiver_FilterSearch""), validDriverID)",Chrome 103.0.5060.134,,,2022-07-28 16:06:20,2022-07-28 16:06:22,2.020s,PASSED
+"verifyElementPresent(findTestObject(""Get List Driver/Page_/span_arrow_forward""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:06:22,2022-07-28 16:06:22,0.467s,PASSED
+"click(findTestObject(""Get List Driver/Page_/span_arrow_forward""))",Chrome 103.0.5060.134,,,2022-07-28 16:06:22,2022-07-28 16:06:23,1.290s,PASSED
+"verifyElementPresent(findTestObject(""Detail Driver/BodyDetailDriver""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:06:23,2022-07-28 16:06:25,1.679s,PASSED
+"verifyElementClickable(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:06:25,2022-07-28 16:06:25,0.324s,PASSED
+"click(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:06:25,2022-07-28 16:06:26,0.413s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 16:06:26,2022-07-28 16:06:27,0.768s,PASSED
+,,,,,,,
+Test Cases/Driver - Internal TMS/Integrate Internal - Get Detail Driver/Get Detail Driver,Chrome 103.0.5060.134,,,2022-07-28 16:06:27,2022-07-28 16:06:45,18.140s,PASSED
+"callTestCase(findTestCase(""PreCondition/Driver""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 16:06:27,2022-07-28 16:06:37,9.983s,PASSED
+"setText(findTestObject(""Get List Driver/Page_/DRiver_FilterSearch""), validDriverID)",Chrome 103.0.5060.134,,,2022-07-28 16:06:37,2022-07-28 16:06:39,2.103s,PASSED
+"verifyElementPresent(findTestObject(""Get List Driver/Page_/span_arrow_forward""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:06:39,2022-07-28 16:06:39,0.440s,PASSED
+"click(findTestObject(""Get List Driver/Page_/span_arrow_forward""))",Chrome 103.0.5060.134,,,2022-07-28 16:06:39,2022-07-28 16:06:41,1.333s,PASSED
+"verifyElementPresent(findTestObject(""Detail Driver/BodyDetailDriver""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:06:41,2022-07-28 16:06:43,2.842s,PASSED
+"verifyElementClickable(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:06:43,2022-07-28 16:06:44,0.341s,PASSED
+"click(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:06:44,2022-07-28 16:06:44,0.415s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 16:06:44,2022-07-28 16:06:45,0.675s,PASSED
+,,,,,,,
+Test Cases/Driver - Internal TMS/Integrate Internal - Get Detail Driver/Get Detail Driver,Chrome 103.0.5060.134,,,2022-07-28 16:06:45,2022-07-28 16:07:01,16.580s,PASSED
+"callTestCase(findTestCase(""PreCondition/Driver""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 16:06:45,2022-07-28 16:06:55,9.658s,PASSED
+"setText(findTestObject(""Get List Driver/Page_/DRiver_FilterSearch""), validDriverID)",Chrome 103.0.5060.134,,,2022-07-28 16:06:55,2022-07-28 16:06:56,1.950s,PASSED
+"verifyElementPresent(findTestObject(""Get List Driver/Page_/span_arrow_forward""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:06:56,2022-07-28 16:06:57,0.443s,PASSED
+"click(findTestObject(""Get List Driver/Page_/span_arrow_forward""))",Chrome 103.0.5060.134,,,2022-07-28 16:06:57,2022-07-28 16:06:58,1.192s,PASSED
+"verifyElementPresent(findTestObject(""Detail Driver/BodyDetailDriver""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:06:58,2022-07-28 16:07:00,1.844s,PASSED
+"verifyElementClickable(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:07:00,2022-07-28 16:07:00,0.341s,PASSED
+"click(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:07:00,2022-07-28 16:07:01,0.453s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 16:07:01,2022-07-28 16:07:01,0.690s,PASSED
+,,,,,,,
+Test Cases/Driver - Internal TMS/Integrate Internal - Get Detail Driver/Get Detail Driver,Chrome 103.0.5060.134,,,2022-07-28 16:07:01,2022-07-28 16:07:17,15.847s,PASSED
+"callTestCase(findTestCase(""PreCondition/Driver""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 16:07:01,2022-07-28 16:07:10,8.901s,PASSED
+"setText(findTestObject(""Get List Driver/Page_/DRiver_FilterSearch""), validDriverID)",Chrome 103.0.5060.134,,,2022-07-28 16:07:10,2022-07-28 16:07:12,1.925s,PASSED
+"verifyElementPresent(findTestObject(""Get List Driver/Page_/span_arrow_forward""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:07:12,2022-07-28 16:07:13,0.440s,PASSED
+"click(findTestObject(""Get List Driver/Page_/span_arrow_forward""))",Chrome 103.0.5060.134,,,2022-07-28 16:07:13,2022-07-28 16:07:14,1.268s,PASSED
+"verifyElementPresent(findTestObject(""Detail Driver/BodyDetailDriver""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:07:14,2022-07-28 16:07:16,1.669s,PASSED
+"verifyElementClickable(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:07:16,2022-07-28 16:07:16,0.359s,PASSED
+"click(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:07:16,2022-07-28 16:07:16,0.426s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 16:07:16,2022-07-28 16:07:17,0.849s,PASSED
+,,,,,,,
+Test Cases/Driver - Internal TMS/Integrate Internal - Get Detail Driver/Get Detail Driver,Chrome 103.0.5060.134,,,2022-07-28 16:07:17,2022-07-28 16:07:33,15.755s,PASSED
+"callTestCase(findTestCase(""PreCondition/Driver""), [:], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 16:07:17,2022-07-28 16:07:26,8.949s,PASSED
+"setText(findTestObject(""Get List Driver/Page_/DRiver_FilterSearch""), validDriverID)",Chrome 103.0.5060.134,,,2022-07-28 16:07:26,2022-07-28 16:07:28,1.908s,PASSED
+"verifyElementPresent(findTestObject(""Get List Driver/Page_/span_arrow_forward""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:07:28,2022-07-28 16:07:29,0.447s,PASSED
+"click(findTestObject(""Get List Driver/Page_/span_arrow_forward""))",Chrome 103.0.5060.134,,,2022-07-28 16:07:29,2022-07-28 16:07:30,1.311s,PASSED
+"verifyElementPresent(findTestObject(""Detail Driver/BodyDetailDriver""), 0)",Chrome 103.0.5060.134,,,2022-07-28 16:07:30,2022-07-28 16:07:32,1.662s,PASSED
+"verifyElementClickable(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:07:32,2022-07-28 16:07:32,0.361s,PASSED
+"click(findTestObject(""Detail Driver/BackButton""))",Chrome 103.0.5060.134,,,2022-07-28 16:07:32,2022-07-28 16:07:32,0.428s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-28 16:07:32,2022-07-28 16:07:33,0.682s,PASSED

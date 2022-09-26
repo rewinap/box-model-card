@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:18:08,2022-08-02 17:20:10,2m - 1.114s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:18:09,2022-08-02 17:18:28,19.429s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-08-02 17:18:09,2022-08-02 17:18:18,8.472s,PASSED
+"setText(findTestObject(""Search List SP/Page_/Field Search""), validSPId)",Chrome 103.0.5060.134,,,2022-08-02 17:18:18,2022-08-02 17:18:18,0.436s,PASSED
+delay(10),Chrome 103.0.5060.134,,,2022-08-02 17:18:18,2022-08-02 17:18:28,10.016s,PASSED
+"click(findTestObject(""null""))",Chrome 103.0.5060.134,,,2022-08-02 17:18:28,2022-08-02 17:18:28,0.103s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:18:28,2022-08-02 17:18:45,17.008s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-08-02 17:18:28,2022-08-02 17:18:35,6.211s,PASSED
+"setText(findTestObject(""Search List SP/Page_/Field Search""), validSPId)",Chrome 103.0.5060.134,,,2022-08-02 17:18:35,2022-08-02 17:18:35,0.716s,PASSED
+delay(10),Chrome 103.0.5060.134,,,2022-08-02 17:18:35,2022-08-02 17:18:45,10.004s,PASSED
+"click(findTestObject(""null""))",Chrome 103.0.5060.134,,,2022-08-02 17:18:45,2022-08-02 17:18:45,0.064s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:18:45,2022-08-02 17:19:02,16.938s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-08-02 17:18:45,2022-08-02 17:18:52,6.236s,PASSED
+"setText(findTestObject(""Search List SP/Page_/Field Search""), validSPId)",Chrome 103.0.5060.134,,,2022-08-02 17:18:52,2022-08-02 17:18:52,0.551s,PASSED
+delay(10),Chrome 103.0.5060.134,,,2022-08-02 17:18:52,2022-08-02 17:19:02,10.013s,PASSED
+"click(findTestObject(""null""))",Chrome 103.0.5060.134,,,2022-08-02 17:19:02,2022-08-02 17:19:02,0.121s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:19:02,2022-08-02 17:19:19,16.707s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-08-02 17:19:02,2022-08-02 17:19:08,5.814s,PASSED
+"setText(findTestObject(""Search List SP/Page_/Field Search""), validSPId)",Chrome 103.0.5060.134,,,2022-08-02 17:19:08,2022-08-02 17:19:09,0.792s,PASSED
+delay(10),Chrome 103.0.5060.134,,,2022-08-02 17:19:09,2022-08-02 17:19:19,10.017s,PASSED
+"click(findTestObject(""null""))",Chrome 103.0.5060.134,,,2022-08-02 17:19:19,2022-08-02 17:19:19,0.074s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:19:19,2022-08-02 17:19:36,16.570s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-08-02 17:19:19,2022-08-02 17:19:25,6.135s,PASSED
+"setText(findTestObject(""Search List SP/Page_/Field Search""), validSPId)",Chrome 103.0.5060.134,,,2022-08-02 17:19:25,2022-08-02 17:19:26,0.352s,PASSED
+delay(10),Chrome 103.0.5060.134,,,2022-08-02 17:19:26,2022-08-02 17:19:36,10.006s,PASSED
+"click(findTestObject(""null""))",Chrome 103.0.5060.134,,,2022-08-02 17:19:36,2022-08-02 17:19:36,0.067s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:19:36,2022-08-02 17:19:52,16.764s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-08-02 17:19:36,2022-08-02 17:19:42,5.915s,PASSED
+"setText(findTestObject(""Search List SP/Page_/Field Search""), validSPId)",Chrome 103.0.5060.134,,,2022-08-02 17:19:42,2022-08-02 17:19:42,0.709s,PASSED
+delay(10),Chrome 103.0.5060.134,,,2022-08-02 17:19:42,2022-08-02 17:19:52,10.008s,PASSED
+"click(findTestObject(""null""))",Chrome 103.0.5060.134,,,2022-08-02 17:19:52,2022-08-02 17:19:52,0.123s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:19:52,2022-08-02 17:20:10,17.104s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-08-02 17:19:52,2022-08-02 17:19:59,6.230s,PASSED
+"setText(findTestObject(""Search List SP/Page_/Field Search""), validSPId)",Chrome 103.0.5060.134,,,2022-08-02 17:19:59,2022-08-02 17:19:59,0.709s,PASSED
+delay(10),Chrome 103.0.5060.134,,,2022-08-02 17:19:59,2022-08-02 17:20:09,10.010s,PASSED
+"click(findTestObject(""null""))",Chrome 103.0.5060.134,,,2022-08-02 17:20:09,2022-08-02 17:20:10,0.143s,FAILED

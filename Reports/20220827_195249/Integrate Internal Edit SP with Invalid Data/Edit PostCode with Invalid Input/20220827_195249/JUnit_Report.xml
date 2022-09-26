@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit PostCode with Invalid Input" time="244.282" tests="5" failures="0" errors="0">
+   <testsuite name="Edit PostCode with Invalid Input" tests="5" failures="0" errors="0" time="244.282" skipped="0" timestamp="2022-08-27 19:53:27" hostname="User - LAPTOP-N3L575R3" id="Test Suites/Integrate Internal Edit SP with Invalid Data/Edit PostCode with Invalid Input">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220827_195249\\Integrate Internal Edit SP with Invalid Data\\Edit PostCode with Invalid Input\\20220827_195249"/>
+         <property name="logFiles" value="D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220827_195249\\Integrate Internal Edit SP with Invalid Data\\Edit PostCode with Invalid Input\\20220827_195249\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - LAPTOP-N3L575R3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 104.0.5112.102"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="7d49774c7cf8bc9021aadc3214897532"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" time="56.127" classname="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" status="PASSED">
+         <system-out><![CDATA[2022-08-27 19:53:28 - [TEST_CASE][PASSED] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv
+
+2022-08-27 19:53:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/SP"), ["validData":""], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 19:53:29 - [TEST_CASE][PASSED] - Test Cases/PreCondition/SP: Test Cases/PreCondition/SP
+
+2022-08-27 19:53:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 19:53:30 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Login Internal-TMS: Test Cases/PreCondition/Login Internal-TMS
+
+2022-08-27 19:53:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-27 19:53:31 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-08-27 19:53:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-27 19:53:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-27 19:53:37 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 19:53:48 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 19:53:48 - [TEST_STEP][PASSED] - setText(findTestObject("Login Internal TMS/Page_/Login_inputEmail"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 19:53:50 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 19:53:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Internal TMS/Page_/Login_inputPassword"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 19:53:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 19:53:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 19:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 19:53:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 19:53:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-27 19:53:52 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-27 19:53:52 - [TEST_STEP][PASSED] - click(findTestObject("Search List SP/Page_/Page_/span_User Management")): Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 19:53:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 19:53:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 19:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 19:53:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 19:53:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Edit-Valid Param/Search ID"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 19:53:56 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Edit-Valid Param/Search ID: Test Cases/PreCondition/Edit-Valid Param/Search ID
+
+2022-08-27 19:53:57 - [TEST_STEP][PASSED] - setText(findTestObject("Search List SP/Page_/Field Search"), validSPId): Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 19:53:58 - [MESSAGE][PASSED] - Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 19:53:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 19:54:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 19:54:03 - [TEST_STEP][PASSED] - click(findTestObject("Get Detail SP/Page_/span_arrow_detailSP")): Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 19:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 19:54:03 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-08-27 19:54:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-08-27 19:54:13 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/ButtonEdit")): Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 19:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 19:54:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 19:54:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 19:54:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 19:54:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:54:19 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:54:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:54:20 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:54:20 - [TEST_STEP][PASSED] - setText(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), PostCode): Text '123456' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:54:20 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:54:20 - [TEST_STEP][PASSED] - scrollToPosition(10, 10): Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 19:54:20 - [MESSAGE][PASSED] - Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 19:54:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-27 19:54:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-27 19:54:23 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/Button_SaveChanges")): Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 19:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 19:54:24 - [TEST_STEP][PASSED] - if (PostCode == ""): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" time="45.417" classname="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" status="PASSED">
+         <system-out><![CDATA[2022-08-27 19:54:24 - [TEST_CASE][PASSED] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv
+
+2022-08-27 19:54:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/SP"), ["validData":""], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 19:54:25 - [TEST_CASE][PASSED] - Test Cases/PreCondition/SP: Test Cases/PreCondition/SP
+
+2022-08-27 19:54:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 19:54:25 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Login Internal-TMS: Test Cases/PreCondition/Login Internal-TMS
+
+2022-08-27 19:54:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-27 19:54:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-08-27 19:54:26 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-08-27 19:54:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-27 19:54:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-27 19:54:27 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 19:54:33 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 19:54:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login Internal TMS/Page_/Login_inputEmail"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 19:54:34 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 19:54:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Internal TMS/Page_/Login_inputPassword"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 19:54:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 19:54:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 19:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 19:54:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 19:54:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-27 19:54:35 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-27 19:54:35 - [TEST_STEP][PASSED] - click(findTestObject("Search List SP/Page_/Page_/span_User Management")): Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 19:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 19:54:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 19:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 19:54:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 19:54:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Edit-Valid Param/Search ID"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 19:54:39 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Edit-Valid Param/Search ID: Test Cases/PreCondition/Edit-Valid Param/Search ID
+
+2022-08-27 19:54:39 - [TEST_STEP][PASSED] - setText(findTestObject("Search List SP/Page_/Field Search"), validSPId): Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 19:54:41 - [MESSAGE][PASSED] - Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 19:54:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 19:54:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 19:54:46 - [TEST_STEP][PASSED] - click(findTestObject("Get Detail SP/Page_/span_arrow_detailSP")): Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 19:54:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 19:54:46 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-08-27 19:54:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-08-27 19:54:56 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/ButtonEdit")): Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 19:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 19:54:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 19:55:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 19:55:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 19:55:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:55:02 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:55:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:55:03 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:55:03 - [TEST_STEP][PASSED] - setText(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), PostCode): Text '23' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:55:03 - [MESSAGE][PASSED] - Text '23' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:55:03 - [TEST_STEP][PASSED] - scrollToPosition(10, 10): Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 19:55:03 - [MESSAGE][PASSED] - Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 19:55:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-27 19:55:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-27 19:55:06 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/Button_SaveChanges")): Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 19:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 19:55:07 - [TEST_STEP][PASSED] - if (PostCode == ""): null
+
+2022-08-27 19:55:07 - [TEST_STEP][PASSED] - else if (PostCode.length() < 5 || PostCode.length() < 5): Browser is closed
+
+2022-08-27 19:55:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Invalid_Parameter_PopUP/Page_/Body_ALert"), 0): Object 'Object Repository/Invalid_Parameter_PopUP/Page_/Body_ALert' is present
+
+2022-08-27 19:55:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-27 19:55:08 - [MESSAGE][PASSED] - Object 'Object Repository/Invalid_Parameter_PopUP/Page_/Body_ALert' is present
+
+2022-08-27 19:55:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Invalid_Parameter_PopUP/Page_/span_TextAlert"), ""postalCode" length must be 5 characters long"): Actual text and expected text of test object 'Object Repository/Invalid_Parameter_PopUP/Page_/span_TextAlert' are matched.
+
+2022-08-27 19:55:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Invalid_Parameter_PopUP/Page_/span_TextAlert' are matched.
+
+2022-08-27 19:55:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-27 19:55:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" time="51.314" classname="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" status="PASSED">
+         <system-out><![CDATA[2022-08-27 19:55:10 - [TEST_CASE][PASSED] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv
+
+2022-08-27 19:55:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/SP"), ["validData":""], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 19:55:10 - [TEST_CASE][PASSED] - Test Cases/PreCondition/SP: Test Cases/PreCondition/SP
+
+2022-08-27 19:55:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 19:55:10 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Login Internal-TMS: Test Cases/PreCondition/Login Internal-TMS
+
+2022-08-27 19:55:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-27 19:55:10 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-08-27 19:55:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-27 19:55:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-27 19:55:13 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 19:55:25 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 19:55:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login Internal TMS/Page_/Login_inputEmail"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 19:55:26 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 19:55:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Internal TMS/Page_/Login_inputPassword"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 19:55:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 19:55:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 19:55:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 19:55:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 19:55:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-27 19:55:27 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-27 19:55:27 - [TEST_STEP][PASSED] - click(findTestObject("Search List SP/Page_/Page_/span_User Management")): Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 19:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 19:55:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 19:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 19:55:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 19:55:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Edit-Valid Param/Search ID"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 19:55:30 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Edit-Valid Param/Search ID: Test Cases/PreCondition/Edit-Valid Param/Search ID
+
+2022-08-27 19:55:30 - [TEST_STEP][PASSED] - setText(findTestObject("Search List SP/Page_/Field Search"), validSPId): Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 19:55:32 - [MESSAGE][PASSED] - Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 19:55:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 19:55:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 19:55:37 - [TEST_STEP][PASSED] - click(findTestObject("Get Detail SP/Page_/span_arrow_detailSP")): Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 19:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 19:55:37 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-08-27 19:55:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-08-27 19:55:47 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/ButtonEdit")): Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 19:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 19:55:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 19:55:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 19:55:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 19:55:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:55:53 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:55:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:55:53 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:55:53 - [TEST_STEP][PASSED] - setText(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), PostCode): Text 'abcs' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:55:54 - [MESSAGE][PASSED] - Text 'abcs' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:55:54 - [TEST_STEP][PASSED] - scrollToPosition(10, 10): Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 19:55:54 - [MESSAGE][PASSED] - Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 19:55:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-27 19:55:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-27 19:55:57 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/Button_SaveChanges")): Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 19:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 19:55:58 - [TEST_STEP][PASSED] - if (PostCode == ""): null
+
+2022-08-27 19:55:58 - [TEST_STEP][PASSED] - else if (PostCode.length() < 5 || PostCode.length() < 5): Browser is closed
+
+2022-08-27 19:55:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Invalid_Parameter_PopUP/Page_/Body_ALert"), 0): Object 'Object Repository/Invalid_Parameter_PopUP/Page_/Body_ALert' is present
+
+2022-08-27 19:55:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-27 19:56:00 - [MESSAGE][PASSED] - Object 'Object Repository/Invalid_Parameter_PopUP/Page_/Body_ALert' is present
+
+2022-08-27 19:56:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Invalid_Parameter_PopUP/Page_/span_TextAlert"), ""postalCode" length must be 5 characters long"): Actual text and expected text of test object 'Object Repository/Invalid_Parameter_PopUP/Page_/span_TextAlert' are matched.
+
+2022-08-27 19:56:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Invalid_Parameter_PopUP/Page_/span_TextAlert' are matched.
+
+2022-08-27 19:56:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-27 19:56:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" time="47.615" classname="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" status="PASSED">
+         <system-out><![CDATA[2022-08-27 19:56:01 - [TEST_CASE][PASSED] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv
+
+2022-08-27 19:56:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/SP"), ["validData":""], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 19:56:01 - [TEST_CASE][PASSED] - Test Cases/PreCondition/SP: Test Cases/PreCondition/SP
+
+2022-08-27 19:56:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 19:56:01 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Login Internal-TMS: Test Cases/PreCondition/Login Internal-TMS
+
+2022-08-27 19:56:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-27 19:56:01 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-08-27 19:56:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-27 19:56:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-27 19:56:03 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 19:56:13 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 19:56:13 - [TEST_STEP][PASSED] - setText(findTestObject("Login Internal TMS/Page_/Login_inputEmail"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 19:56:13 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 19:56:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Internal TMS/Page_/Login_inputPassword"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 19:56:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 19:56:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 19:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 19:56:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 19:56:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-27 19:56:14 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-27 19:56:14 - [TEST_STEP][PASSED] - click(findTestObject("Search List SP/Page_/Page_/span_User Management")): Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 19:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 19:56:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 19:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 19:56:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 19:56:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Edit-Valid Param/Search ID"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 19:56:20 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Edit-Valid Param/Search ID: Test Cases/PreCondition/Edit-Valid Param/Search ID
+
+2022-08-27 19:56:20 - [TEST_STEP][PASSED] - setText(findTestObject("Search List SP/Page_/Field Search"), validSPId): Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 19:56:22 - [MESSAGE][PASSED] - Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 19:56:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 19:56:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 19:56:27 - [TEST_STEP][PASSED] - click(findTestObject("Get Detail SP/Page_/span_arrow_detailSP")): Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 19:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 19:56:27 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-08-27 19:56:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-08-27 19:56:37 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/ButtonEdit")): Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 19:56:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 19:56:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 19:56:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 19:56:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 19:56:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:56:43 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:56:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:56:44 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:56:44 - [TEST_STEP][PASSED] - setText(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), PostCode): Text '12345' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:56:44 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:56:44 - [TEST_STEP][PASSED] - scrollToPosition(10, 10): Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 19:56:44 - [MESSAGE][PASSED] - Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 19:56:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-27 19:56:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-27 19:56:47 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/Button_SaveChanges")): Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 19:56:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 19:56:49 - [TEST_STEP][PASSED] - if (PostCode == ""): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" time="42.901" classname="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" status="PASSED">
+         <system-out><![CDATA[2022-08-27 19:56:49 - [TEST_CASE][PASSED] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv
+
+2022-08-27 19:56:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/SP"), ["validData":""], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 19:56:49 - [TEST_CASE][PASSED] - Test Cases/PreCondition/SP: Test Cases/PreCondition/SP
+
+2022-08-27 19:56:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 19:56:49 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Login Internal-TMS: Test Cases/PreCondition/Login Internal-TMS
+
+2022-08-27 19:56:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-27 19:56:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-08-27 19:56:50 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-08-27 19:56:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-27 19:56:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-27 19:56:52 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 19:56:58 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 19:56:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login Internal TMS/Page_/Login_inputEmail"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 19:56:59 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 19:56:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Internal TMS/Page_/Login_inputPassword"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 19:57:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 19:57:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 19:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 19:57:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 19:57:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-27 19:57:00 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-27 19:57:00 - [TEST_STEP][PASSED] - click(findTestObject("Search List SP/Page_/Page_/span_User Management")): Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 19:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 19:57:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 19:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 19:57:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 19:57:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Edit-Valid Param/Search ID"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 19:57:03 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Edit-Valid Param/Search ID: Test Cases/PreCondition/Edit-Valid Param/Search ID
+
+2022-08-27 19:57:03 - [TEST_STEP][PASSED] - setText(findTestObject("Search List SP/Page_/Field Search"), validSPId): Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 19:57:05 - [MESSAGE][PASSED] - Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 19:57:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 19:57:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 19:57:10 - [TEST_STEP][PASSED] - click(findTestObject("Get Detail SP/Page_/span_arrow_detailSP")): Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 19:57:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 19:57:10 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-08-27 19:57:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-08-27 19:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/ButtonEdit")): Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 19:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 19:57:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 19:57:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 19:57:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 19:57:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:57:27 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:57:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:57:27 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:57:27 - [TEST_STEP][PASSED] - setText(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), PostCode): Text '' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:57:27 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 19:57:27 - [TEST_STEP][PASSED] - scrollToPosition(10, 10): Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 19:57:27 - [MESSAGE][PASSED] - Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 19:57:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-27 19:57:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-27 19:57:30 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/Button_SaveChanges")): Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 19:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 19:57:31 - [TEST_STEP][PASSED] - if (PostCode == ""): Actual text and expected text of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_PostCode' are matched.
+
+2022-08-27 19:57:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Validation_With Empty String/Page_/EmptyString_C_PostCode"), "Post Code must be filled"): Actual text and expected text of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_PostCode' are matched.
+
+2022-08-27 19:57:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_PostCode' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-27 19:53:27 - [TEST_SUITE][PASSED] - Edit PostCode with Invalid Input: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

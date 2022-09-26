@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit PostCode with Invalid Input" time="1.481" tests="4" failures="0" errors="4">
+   <testsuite name="Edit PostCode with Invalid Input" tests="4" failures="0" errors="4" time="1.481" skipped="0" timestamp="2022-08-27 18:09:03" hostname="User - LAPTOP-N3L575R3" id="Test Suites/Integrate Internal Edit SP with Invalid Data/Edit PostCode with Invalid Input">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220827_180830\\Integrate Internal Edit SP with Invalid Data\\Edit PostCode with Invalid Input\\20220827_180830"/>
+         <property name="logFiles" value="D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220827_180830\\Integrate Internal Edit SP with Invalid Data\\Edit PostCode with Invalid Input\\20220827_180830\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - LAPTOP-N3L575R3"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+      </properties>
+      <testcase name="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" time="0.088" classname="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" status="ERROR">
+         <error type="ERROR" message="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544674.groovy: 62: expecting ')', found '' @ line 62, column 1.
+1 error
+"/>
+         <system-out><![CDATA[2022-08-27 18:09:04 - [TEST_CASE][ERROR] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544674.groovy: 62: expecting ')', found '' @ line 62, column 1.
+1 error]]></system-out>
+         <system-err><![CDATA[2022-08-27 18:09:04 - [TEST_CASE][ERROR] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544674.groovy: 62: expecting ')', found '' @ line 62, column 1.
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" time="0.027" classname="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" status="ERROR">
+         <error type="ERROR" message="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544831.groovy: 62: expecting ')', found '' @ line 62, column 1.
+1 error
+"/>
+         <system-out><![CDATA[2022-08-27 18:09:04 - [TEST_CASE][ERROR] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544831.groovy: 62: expecting ')', found '' @ line 62, column 1.
+1 error]]></system-out>
+         <system-err><![CDATA[2022-08-27 18:09:04 - [TEST_CASE][ERROR] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544831.groovy: 62: expecting ')', found '' @ line 62, column 1.
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" time="0.025" classname="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" status="ERROR">
+         <error type="ERROR" message="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544915.groovy: 62: expecting ')', found '' @ line 62, column 1.
+1 error
+"/>
+         <system-out><![CDATA[2022-08-27 18:09:04 - [TEST_CASE][ERROR] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544915.groovy: 62: expecting ')', found '' @ line 62, column 1.
+1 error]]></system-out>
+         <system-err><![CDATA[2022-08-27 18:09:04 - [TEST_CASE][ERROR] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544915.groovy: 62: expecting ')', found '' @ line 62, column 1.
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" time="0.025" classname="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv" status="ERROR">
+         <error type="ERROR" message="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544977.groovy: 62: expecting ')', found '' @ line 62, column 1.
+1 error
+"/>
+         <system-out><![CDATA[2022-08-27 18:09:04 - [TEST_CASE][ERROR] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544977.groovy: 62: expecting ')', found '' @ line 62, column 1.
+1 error]]></system-out>
+         <system-err><![CDATA[2022-08-27 18:09:04 - [TEST_CASE][ERROR] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544977.groovy: 62: expecting ')', found '' @ line 62, column 1.
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-27 18:09:03 - [TEST_SUITE][ERROR] - Edit PostCode with Invalid Input: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544674.groovy: 62: expecting ')', found '' @ line 62, column 1.
+1 error]]></system-out>
+      <system-err><![CDATA[2022-08-27 18:09:03 - [TEST_SUITE][ERROR] - Edit PostCode with Invalid Input: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544674.groovy: 62: expecting ')', found '' @ line 62, column 1.
+1 error]]></system-err>
+   </testsuite>
+</testsuites>

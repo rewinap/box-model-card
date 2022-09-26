@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Get List SP,Chrome 103.0.5060.134,,,2022-07-26 21:04:44,2022-07-26 21:05:40,56.498s,PASSED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Get List SP with Invalid city,Chrome 103.0.5060.134,,,2022-07-26 21:04:44,2022-07-26 21:05:04,20.081s,PASSED
+"callTestCase(findTestCase(""Service Provider -Internal TMS/PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-26 21:04:45,2022-07-26 21:04:59,13.674s,PASSED
+"setText(findTestObject(""Object Repository/Search-City/Page_/Field Choose City""), invalidCity)",Chrome 103.0.5060.134,,,2022-07-26 21:04:59,2022-07-26 21:05:00,1.739s,PASSED
+"click(findTestObject(""Object Repository/Search-City/Page_/listCity""))",Chrome 103.0.5060.134,,,2022-07-26 21:05:00,2022-07-26 21:05:02,1.853s,PASSED
+"verifyElementPresent(findTestObject(""Search-City/Page_/Page_/NoElement""), 0)",Chrome 103.0.5060.134,,,2022-07-26 21:05:02,2022-07-26 21:05:04,1.573s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-26 21:05:04,2022-07-26 21:05:04,0.709s,PASSED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Get List SP with Invalid city,Chrome 103.0.5060.134,,,2022-07-26 21:05:05,2022-07-26 21:05:24,19.278s,PASSED
+"callTestCase(findTestCase(""Service Provider -Internal TMS/PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-26 21:05:05,2022-07-26 21:05:18,13.079s,PASSED
+"setText(findTestObject(""Object Repository/Search-City/Page_/Field Choose City""), invalidCity)",Chrome 103.0.5060.134,,,2022-07-26 21:05:18,2022-07-26 21:05:20,2.019s,PASSED
+"click(findTestObject(""Object Repository/Search-City/Page_/listCity""))",Chrome 103.0.5060.134,,,2022-07-26 21:05:20,2022-07-26 21:05:21,1.801s,PASSED
+"verifyElementPresent(findTestObject(""Search-City/Page_/Page_/NoElement""), 0)",Chrome 103.0.5060.134,,,2022-07-26 21:05:21,2022-07-26 21:05:23,1.665s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-26 21:05:23,2022-07-26 21:05:24,0.679s,PASSED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Get List SP with Invalid city,Chrome 103.0.5060.134,,,2022-07-26 21:05:24,2022-07-26 21:05:40,16.523s,PASSED
+"callTestCase(findTestCase(""Service Provider -Internal TMS/PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-26 21:05:24,2022-07-26 21:05:34,9.855s,PASSED
+"setText(findTestObject(""Object Repository/Search-City/Page_/Field Choose City""), invalidCity)",Chrome 103.0.5060.134,,,2022-07-26 21:05:34,2022-07-26 21:05:36,2.335s,PASSED
+"click(findTestObject(""Object Repository/Search-City/Page_/listCity""))",Chrome 103.0.5060.134,,,2022-07-26 21:05:36,2022-07-26 21:05:38,1.779s,PASSED
+"verifyElementPresent(findTestObject(""Search-City/Page_/Page_/NoElement""), 0)",Chrome 103.0.5060.134,,,2022-07-26 21:05:38,2022-07-26 21:05:40,1.683s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-26 21:05:40,2022-07-26 21:05:40,0.835s,PASSED

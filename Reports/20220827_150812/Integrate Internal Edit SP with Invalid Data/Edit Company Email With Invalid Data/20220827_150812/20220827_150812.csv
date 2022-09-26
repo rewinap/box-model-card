@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Edit Company Email With Invalid Data,Chrome 104.0.5112.102,,,2022-08-27 15:08:41,2022-08-27 15:11:21,2m - 40.065s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv,Chrome 104.0.5112.102,,,2022-08-27 15:08:42,2022-08-27 15:09:40,58.172s,PASSED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 15:08:42,2022-08-27 15:09:08,25.977s,PASSED
+"callTestCase(findTestCase(""PreCondition/Edit-Valid Param/Search ID""), [:], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 15:09:08,2022-08-27 15:09:29,21.142s,PASSED
+"sendKeys(findTestObject(""Add SP with valid data/Page_/addSP_input Email""), Keys.chord(CONTROL, ""a""))",Chrome 104.0.5112.102,,,2022-08-27 15:09:29,2022-08-27 15:09:30,0.204s,PASSED
+"sendKeys(findTestObject(""Add SP with valid data/Page_/addSP_input Email""), Keys.chord(BACK_SPACE))",Chrome 104.0.5112.102,,,2022-08-27 15:09:30,2022-08-27 15:09:30,0.199s,PASSED
+"setText(findTestObject(""Add SP with valid data/Page_/addSP_input Email""), Cemail)",Chrome 104.0.5112.102,,,2022-08-27 15:09:30,2022-08-27 15:09:30,0.244s,PASSED
+"callTestCase(findTestCase(""PreCondition/Edit-Valid Param/Validasi""), [""Cekpostcode"":"""", ""valuePostcode"":"""", ""valueAddress"":"""", ""PostCode"":""20118"", ""Address"":""SUMUT, Medan""], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 15:09:30,2022-08-27 15:09:36,6.377s,PASSED
+"scrollToPosition(10, 10)",Chrome 104.0.5112.102,,,2022-08-27 15:09:36,2022-08-27 15:09:37,0.050s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-27 15:09:37,2022-08-27 15:09:40,3.005s,PASSED
+"click(findTestObject(""Edit SP/Button_SaveChanges""))",Chrome 104.0.5112.102,,,2022-08-27 15:09:40,2022-08-27 15:09:40,0.212s,PASSED
+"valueEmail = getText(findTestObject(""Add SP with valid data/Page_/addSP_input Email""))",Chrome 104.0.5112.102,,,2022-08-27 15:09:40,2022-08-27 15:09:40,0.092s,PASSED
+"if (valueEmail == """")",Chrome 104.0.5112.102,,,2022-08-27 15:09:40,2022-08-27 15:09:40,0.100s,PASSED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv,Chrome 104.0.5112.102,,,2022-08-27 15:09:40,2022-08-27 15:10:25,45.301s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 15:09:40,2022-08-27 15:09:54,14.053s,PASSED
+"callTestCase(findTestCase(""PreCondition/Edit-Valid Param/Search ID""), [:], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 15:09:54,2022-08-27 15:10:15,21.091s,PASSED
+"sendKeys(findTestObject(""Add SP with valid data/Page_/addSP_input Email""), Keys.chord(CONTROL, ""a""))",Chrome 104.0.5112.102,,,2022-08-27 15:10:15,2022-08-27 15:10:15,0.141s,PASSED
+"sendKeys(findTestObject(""Add SP with valid data/Page_/addSP_input Email""), Keys.chord(BACK_SPACE))",Chrome 104.0.5112.102,,,2022-08-27 15:10:15,2022-08-27 15:10:15,0.141s,PASSED
+"setText(findTestObject(""Add SP with valid data/Page_/addSP_input Email""), Cemail)",Chrome 104.0.5112.102,,,2022-08-27 15:10:15,2022-08-27 15:10:16,0.254s,PASSED
+"callTestCase(findTestCase(""PreCondition/Edit-Valid Param/Validasi""), [""Cekpostcode"":"""", ""valuePostcode"":"""", ""valueAddress"":"""", ""PostCode"":""20118"", ""Address"":""SUMUT, Medan""], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 15:10:16,2022-08-27 15:10:22,5.919s,PASSED
+"scrollToPosition(10, 10)",Chrome 104.0.5112.102,,,2022-08-27 15:10:22,2022-08-27 15:10:22,0.019s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-27 15:10:22,2022-08-27 15:10:25,3.015s,PASSED
+"click(findTestObject(""Edit SP/Button_SaveChanges""))",Chrome 104.0.5112.102,,,2022-08-27 15:10:25,2022-08-27 15:10:25,0.200s,PASSED
+"valueEmail = getText(findTestObject(""Add SP with valid data/Page_/addSP_input Email""))",Chrome 104.0.5112.102,,,2022-08-27 15:10:25,2022-08-27 15:10:25,0.108s,PASSED
+"if (valueEmail == """")",Chrome 104.0.5112.102,,,2022-08-27 15:10:25,2022-08-27 15:10:25,0.319s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv,Chrome 104.0.5112.102,,,2022-08-27 15:10:25,2022-08-27 15:11:21,56.026s,PASSED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 15:10:25,2022-08-27 15:10:51,25.652s,PASSED
+"callTestCase(findTestCase(""PreCondition/Edit-Valid Param/Search ID""), [:], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 15:10:51,2022-08-27 15:11:12,20.830s,PASSED
+"sendKeys(findTestObject(""Add SP with valid data/Page_/addSP_input Email""), Keys.chord(CONTROL, ""a""))",Chrome 104.0.5112.102,,,2022-08-27 15:11:12,2022-08-27 15:11:12,0.139s,PASSED
+"sendKeys(findTestObject(""Add SP with valid data/Page_/addSP_input Email""), Keys.chord(BACK_SPACE))",Chrome 104.0.5112.102,,,2022-08-27 15:11:12,2022-08-27 15:11:12,0.102s,PASSED
+"setText(findTestObject(""Add SP with valid data/Page_/addSP_input Email""), Cemail)",Chrome 104.0.5112.102,,,2022-08-27 15:11:12,2022-08-27 15:11:12,0.166s,PASSED
+"callTestCase(findTestCase(""PreCondition/Edit-Valid Param/Validasi""), [""Cekpostcode"":"""", ""valuePostcode"":"""", ""valueAddress"":"""", ""PostCode"":""20118"", ""Address"":""SUMUT, Medan""], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 15:11:12,2022-08-27 15:11:18,5.705s,PASSED
+"scrollToPosition(10, 10)",Chrome 104.0.5112.102,,,2022-08-27 15:11:18,2022-08-27 15:11:18,0.021s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-27 15:11:18,2022-08-27 15:11:21,3.015s,PASSED
+"click(findTestObject(""Edit SP/Button_SaveChanges""))",Chrome 104.0.5112.102,,,2022-08-27 15:11:21,2022-08-27 15:11:21,0.192s,PASSED
+"valueEmail = getText(findTestObject(""Add SP with valid data/Page_/addSP_input Email""))",Chrome 104.0.5112.102,,,2022-08-27 15:11:21,2022-08-27 15:11:21,0.083s,PASSED
+"if (valueEmail == """")",Chrome 104.0.5112.102,,,2022-08-27 15:11:21,2022-08-27 15:11:21,0.096s,PASSED

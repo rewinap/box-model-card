@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Get List SP - Valid Data,Chrome 103.0.5060.134,,,2022-07-26 11:36:45,2022-07-26 11:39:34,2m - 49.688s,FAILED
+,,,,,,,
+Test Cases/Customer-Internal TMS/Get List SP with valid city,Chrome 103.0.5060.134,,,2022-07-26 11:36:45,2022-07-26 11:37:45,1m - 0.079s,FAILED
+"callTestCase(findTestCase(""Customer-Internal TMS/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-26 11:36:47,2022-07-26 11:37:09,22.748s,PASSED
+"setText(findTestObject(""Object Repository/Search-City/Page_/Field Choose City""), validCity)",Chrome 103.0.5060.134,,,2022-07-26 11:37:09,2022-07-26 11:37:12,3.103s,PASSED
+"click(findTestObject(""Object Repository/Search-City/Page_/listCity""))",Chrome 103.0.5060.134,,,2022-07-26 11:37:12,2022-07-26 11:37:45,32.887s,FAILED
+,,,,,,,
+Test Cases/Customer-Internal TMS/Get List SP with valid city,Chrome 103.0.5060.134,,,2022-07-26 11:37:45,2022-07-26 11:38:06,21.004s,PASSED
+"callTestCase(findTestCase(""Customer-Internal TMS/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-26 11:37:45,2022-07-26 11:37:59,13.835s,PASSED
+"setText(findTestObject(""Object Repository/Search-City/Page_/Field Choose City""), validCity)",Chrome 103.0.5060.134,,,2022-07-26 11:37:59,2022-07-26 11:38:01,2.005s,PASSED
+"click(findTestObject(""Object Repository/Search-City/Page_/listCity""))",Chrome 103.0.5060.134,,,2022-07-26 11:38:01,2022-07-26 11:38:03,1.787s,PASSED
+"verifyElementPresent(findTestObject(""Search-City/Page_/city arrow""), 0)",Chrome 103.0.5060.134,,,2022-07-26 11:38:03,2022-07-26 11:38:05,2.340s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-26 11:38:05,2022-07-26 11:38:06,1.017s,PASSED
+,,,,,,,
+Test Cases/Customer-Internal TMS/Get List SP with valid city,Chrome 103.0.5060.134,,,2022-07-26 11:38:06,2022-07-26 11:38:25,19.025s,PASSED
+"callTestCase(findTestCase(""Customer-Internal TMS/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-26 11:38:06,2022-07-26 11:38:19,12.315s,PASSED
+"setText(findTestObject(""Object Repository/Search-City/Page_/Field Choose City""), validCity)",Chrome 103.0.5060.134,,,2022-07-26 11:38:19,2022-07-26 11:38:21,1.991s,PASSED
+"click(findTestObject(""Object Repository/Search-City/Page_/listCity""))",Chrome 103.0.5060.134,,,2022-07-26 11:38:21,2022-07-26 11:38:23,1.874s,PASSED
+"verifyElementPresent(findTestObject(""Search-City/Page_/city arrow""), 0)",Chrome 103.0.5060.134,,,2022-07-26 11:38:23,2022-07-26 11:38:24,1.575s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-26 11:38:24,2022-07-26 11:38:25,1.240s,PASSED
+,,,,,,,
+Test Cases/Customer-Internal TMS/Get List SP with valid city,Chrome 103.0.5060.134,,,2022-07-26 11:38:25,2022-07-26 11:38:46,20.664s,PASSED
+"callTestCase(findTestCase(""Customer-Internal TMS/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-26 11:38:25,2022-07-26 11:38:39,13.446s,PASSED
+"setText(findTestObject(""Object Repository/Search-City/Page_/Field Choose City""), validCity)",Chrome 103.0.5060.134,,,2022-07-26 11:38:39,2022-07-26 11:38:41,2.252s,PASSED
+"click(findTestObject(""Object Repository/Search-City/Page_/listCity""))",Chrome 103.0.5060.134,,,2022-07-26 11:38:41,2022-07-26 11:38:43,1.735s,PASSED
+"verifyElementPresent(findTestObject(""Search-City/Page_/city arrow""), 0)",Chrome 103.0.5060.134,,,2022-07-26 11:38:43,2022-07-26 11:38:45,1.676s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-26 11:38:45,2022-07-26 11:38:46,1.534s,PASSED
+,,,,,,,
+Test Cases/Customer-Internal TMS/Get List SP with valid city,Chrome 103.0.5060.134,,,2022-07-26 11:38:46,2022-07-26 11:39:10,24.371s,PASSED
+"callTestCase(findTestCase(""Customer-Internal TMS/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-26 11:38:46,2022-07-26 11:39:03,17.003s,PASSED
+"setText(findTestObject(""Object Repository/Search-City/Page_/Field Choose City""), validCity)",Chrome 103.0.5060.134,,,2022-07-26 11:39:03,2022-07-26 11:39:05,2.420s,PASSED
+"click(findTestObject(""Object Repository/Search-City/Page_/listCity""))",Chrome 103.0.5060.134,,,2022-07-26 11:39:05,2022-07-26 11:39:07,1.835s,PASSED
+"verifyElementPresent(findTestObject(""Search-City/Page_/city arrow""), 0)",Chrome 103.0.5060.134,,,2022-07-26 11:39:07,2022-07-26 11:39:09,1.687s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-26 11:39:09,2022-07-26 11:39:10,1.406s,PASSED
+,,,,,,,
+Test Cases/Customer-Internal TMS/Get List SP with valid city,Chrome 103.0.5060.134,,,2022-07-26 11:39:10,2022-07-26 11:39:34,23.983s,PASSED
+"callTestCase(findTestCase(""Customer-Internal TMS/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-26 11:39:10,2022-07-26 11:39:26,15.533s,PASSED
+"setText(findTestObject(""Object Repository/Search-City/Page_/Field Choose City""), validCity)",Chrome 103.0.5060.134,,,2022-07-26 11:39:26,2022-07-26 11:39:28,2.331s,PASSED
+"click(findTestObject(""Object Repository/Search-City/Page_/listCity""))",Chrome 103.0.5060.134,,,2022-07-26 11:39:28,2022-07-26 11:39:30,1.802s,PASSED
+"verifyElementPresent(findTestObject(""Search-City/Page_/city arrow""), 0)",Chrome 103.0.5060.134,,,2022-07-26 11:39:30,2022-07-26 11:39:32,1.575s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-26 11:39:32,2022-07-26 11:39:34,2.701s,PASSED

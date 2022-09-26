@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Get Detail SP,,,,2022-08-02 17:16:23,2022-08-02 17:16:33,10.583s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,,,,2022-08-02 17:16:23,2022-08-02 17:16:32,8.785s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",,,,2022-08-02 17:16:23,2022-08-02 17:16:32,8.408s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,,,,2022-08-02 17:16:32,2022-08-02 17:16:32,0.226s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",,,,2022-08-02 17:16:32,2022-08-02 17:16:32,0.213s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,,,,2022-08-02 17:16:32,2022-08-02 17:16:32,0.234s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",,,,2022-08-02 17:16:32,2022-08-02 17:16:32,0.223s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,,,,2022-08-02 17:16:32,2022-08-02 17:16:32,0.204s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",,,,2022-08-02 17:16:32,2022-08-02 17:16:32,0.194s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,,,,2022-08-02 17:16:33,2022-08-02 17:16:33,0.206s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",,,,2022-08-02 17:16:33,2022-08-02 17:16:33,0.195s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,,,,2022-08-02 17:16:33,2022-08-02 17:16:33,0.201s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",,,,2022-08-02 17:16:33,2022-08-02 17:16:33,0.192s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,,,,2022-08-02 17:16:33,2022-08-02 17:16:33,0.203s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",,,,2022-08-02 17:16:33,2022-08-02 17:16:33,0.192s,FAILED

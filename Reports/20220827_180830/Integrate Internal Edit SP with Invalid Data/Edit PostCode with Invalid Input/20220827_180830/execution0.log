@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-08-27T18:09:03</date>
+  <millis>1661598543519</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Integrate Internal Edit SP with Invalid Data/Edit PostCode with Invalid Input</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">Edit PostCode with Invalid Input</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Integrate Internal Edit SP with Invalid Data/Edit PostCode with Invalid Input</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:03</date>
+  <millis>1661598543560</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = User - LAPTOP-N3L575R3</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">User - LAPTOP-N3L575R3</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:03</date>
+  <millis>1661598543562</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:03</date>
+  <millis>1661598543563</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.56.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.56.1</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:03</date>
+  <millis>1661598543565</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.3.5.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.3.5.208</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:03</date>
+  <millis>1661598543589</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleBeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-08-27T18:09:03</date>
+  <millis>1661598543629</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : KatalonHelper.updateInfo()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">12</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:03</date>
+  <millis>1661598543852</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : KatalonHelper.updateInfo()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-08-27T18:09:03</date>
+  <millis>1661598543852</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleBeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-08-27T18:09:04</date>
+  <millis>1661598544664</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</property>
+  <property name="source">D:\QA\Automation Testing\KATALON\TMS-Internal Automation\TMS\Test Cases\Service Provider -Internal TMS\Integrate Internal - Invalid Edit SP\4_Edit Company Postcode_Inv.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:04</date>
+  <millis>1661598544746</millis>
+  <sequence>13</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544674.groovy: 62: expecting &amp;apos;)&amp;apos;, found &amp;apos;&amp;apos; @ line 62, column 1.
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544674.groovy: 62: expecting &apos;)&apos;, found &apos;&apos; @ line 62, column 1.
+1 error
+
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:183)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:258)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661598510959.run(TempTestSuite1661598510959.groovy:36)
+</property>
+  <property name="failed.exception.message">startup failed:
+script1661598544674.groovy: 62: expecting &apos;)&apos;, found &apos;&apos; @ line 62, column 1.
+1 error
+</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:04</date>
+  <millis>1661598544752</millis>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:04</date>
+  <millis>1661598544827</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</property>
+  <property name="source">D:\QA\Automation Testing\KATALON\TMS-Internal Automation\TMS\Test Cases\Service Provider -Internal TMS\Integrate Internal - Invalid Edit SP\4_Edit Company Postcode_Inv.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:04</date>
+  <millis>1661598544851</millis>
+  <sequence>17</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544831.groovy: 62: expecting &amp;apos;)&amp;apos;, found &amp;apos;&amp;apos; @ line 62, column 1.
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544831.groovy: 62: expecting &apos;)&apos;, found &apos;&apos; @ line 62, column 1.
+1 error
+
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:183)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:258)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661598510959.run(TempTestSuite1661598510959.groovy:36)
+</property>
+  <property name="failed.exception.message">startup failed:
+script1661598544831.groovy: 62: expecting &apos;)&apos;, found &apos;&apos; @ line 62, column 1.
+1 error
+</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:04</date>
+  <millis>1661598544854</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:04</date>
+  <millis>1661598544911</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</property>
+  <property name="source">D:\QA\Automation Testing\KATALON\TMS-Internal Automation\TMS\Test Cases\Service Provider -Internal TMS\Integrate Internal - Invalid Edit SP\4_Edit Company Postcode_Inv.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:04</date>
+  <millis>1661598544932</millis>
+  <sequence>21</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544915.groovy: 62: expecting &amp;apos;)&amp;apos;, found &amp;apos;&amp;apos; @ line 62, column 1.
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544915.groovy: 62: expecting &apos;)&apos;, found &apos;&apos; @ line 62, column 1.
+1 error
+
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:183)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:258)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661598510959.run(TempTestSuite1661598510959.groovy:36)
+</property>
+  <property name="failed.exception.message">startup failed:
+script1661598544915.groovy: 62: expecting &apos;)&apos;, found &apos;&apos; @ line 62, column 1.
+1 error
+</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:04</date>
+  <millis>1661598544936</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:04</date>
+  <millis>1661598544975</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</property>
+  <property name="source">D:\QA\Automation Testing\KATALON\TMS-Internal Automation\TMS\Test Cases\Service Provider -Internal TMS\Integrate Internal - Invalid Edit SP\4_Edit Company Postcode_Inv.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:04</date>
+  <millis>1661598544996</millis>
+  <sequence>25</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544977.groovy: 62: expecting &amp;apos;)&amp;apos;, found &amp;apos;&amp;apos; @ line 62, column 1.
+1 error
+</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1661598544977.groovy: 62: expecting &apos;)&apos;, found &apos;&apos; @ line 62, column 1.
+1 error
+
+	at com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)
+	at com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:183)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:258)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661598510959.run(TempTestSuite1661598510959.groovy:36)
+</property>
+  <property name="failed.exception.message">startup failed:
+script1661598544977.groovy: 62: expecting &apos;)&apos;, found &apos;&apos; @ line 62, column 1.
+1 error
+</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:05</date>
+  <millis>1661598545000</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-08-27T18:09:05</date>
+  <millis>1661598545001</millis>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-08-27T18:09:06</date>
+  <millis>1661598546292</millis>
+  <sequence>73</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: D:\QA\Automation Testing\KATALON\TMS-Internal Automation\TMS\Reports\20220827_180830\Integrate Internal Edit SP with Invalid Data\Edit PostCode with Invalid Input\20220827_180830...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-08-27T18:09:06</date>
+  <millis>1661598546370</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-08-27T18:09:06</date>
+  <millis>1661598546372</millis>
+  <sequence>75</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: D:\QA\Automation Testing\KATALON\TMS-Internal Automation\TMS\Reports\20220827_180830\Integrate Internal Edit SP with Invalid Data\Edit PostCode with Invalid Input\20220827_180830...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-08-27T18:09:06</date>
+  <millis>1661598546411</millis>
+  <sequence>76</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-08-27T18:09:07</date>
+  <millis>1661598547192</millis>
+  <sequence>78</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-08-27T18:09:07</date>
+  <millis>1661598547323</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Integrate Internal Edit SP with Invalid Data/Edit PostCode with Invalid Input</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

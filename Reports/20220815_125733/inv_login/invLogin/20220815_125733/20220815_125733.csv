@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+invLogin,Chrome 104.0.5112.81,,,2022-08-15 12:58:12,2022-08-15 12:59:46,1m - 33.780s,FAILED
+,,,,,,,
+Test Cases/inv_Login_Depa,Chrome 104.0.5112.81,,,2022-08-15 12:58:13,2022-08-15 12:58:50,37.219s,FAILED
+"openBrowser(""https://pex-dev.youarestellar.co.id/"")",Chrome 104.0.5112.81,,,2022-08-15 12:58:13,2022-08-15 12:58:47,34.004s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 104.0.5112.81,,,2022-08-15 12:58:47,2022-08-15 12:58:47,0.172s,PASSED
+"click(findTestObject(""inv_Login/button_Login""))",Chrome 104.0.5112.81,,,2022-08-15 12:58:47,2022-08-15 12:58:48,0.555s,PASSED
+"setText(findTestObject(""inv_Login/input_email""), email)",Chrome 104.0.5112.81,,,2022-08-15 12:58:48,2022-08-15 12:58:49,0.807s,PASSED
+"setText(findTestObject(""inv_Login/input_password""), password)",Chrome 104.0.5112.81,,,2022-08-15 12:58:49,2022-08-15 12:58:49,0.264s,PASSED
+"click(findTestObject(""inv_Login/button_Masuk""))",Chrome 104.0.5112.81,,,2022-08-15 12:58:49,2022-08-15 12:58:49,0.144s,PASSED
+"if (email == ""Tryregist@i-solution.co.id"" && password == ""12345678"" || email == ""Joshua@Sharklasers.com"" && password == ""12378910"")",Chrome 104.0.5112.81,,,2022-08-15 12:58:49,2022-08-15 12:58:50,0.785s,FAILED
+,,,,,,,
+Test Cases/inv_Login_Depa,Chrome 104.0.5112.81,,,2022-08-15 12:58:50,2022-08-15 12:59:09,18.760s,FAILED
+"openBrowser(""https://pex-dev.youarestellar.co.id/"")",Chrome 104.0.5112.81,,,2022-08-15 12:58:50,2022-08-15 12:59:06,16.529s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 104.0.5112.81,,,2022-08-15 12:59:06,2022-08-15 12:59:07,0.153s,PASSED
+"click(findTestObject(""inv_Login/button_Login""))",Chrome 104.0.5112.81,,,2022-08-15 12:59:07,2022-08-15 12:59:07,0.165s,PASSED
+"setText(findTestObject(""inv_Login/input_email""), email)",Chrome 104.0.5112.81,,,2022-08-15 12:59:07,2022-08-15 12:59:08,0.833s,PASSED
+"setText(findTestObject(""inv_Login/input_password""), password)",Chrome 104.0.5112.81,,,2022-08-15 12:59:08,2022-08-15 12:59:08,0.247s,PASSED
+"click(findTestObject(""inv_Login/button_Masuk""))",Chrome 104.0.5112.81,,,2022-08-15 12:59:08,2022-08-15 12:59:08,0.142s,PASSED
+"if (email == ""Tryregist@i-solution.co.id"" && password == ""12345678"" || email == ""Joshua@Sharklasers.com"" && password == ""12378910"")",Chrome 104.0.5112.81,,,2022-08-15 12:59:08,2022-08-15 12:59:08,0.001s,PASSED
+"else if (email == ""rudy.siawira@i-solution.co.id"" && password == ""12345678"" || email == ""Devi@Sharklasers.com"" && password == ""12345690"")",Chrome 104.0.5112.81,,,2022-08-15 12:59:08,2022-08-15 12:59:09,0.676s,FAILED
+,,,,,,,
+Test Cases/inv_Login_Depa,Chrome 104.0.5112.81,,,2022-08-15 12:59:09,2022-08-15 12:59:26,17.761s,FAILED
+"openBrowser(""https://pex-dev.youarestellar.co.id/"")",Chrome 104.0.5112.81,,,2022-08-15 12:59:09,2022-08-15 12:59:24,15.735s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 104.0.5112.81,,,2022-08-15 12:59:24,2022-08-15 12:59:25,0.130s,PASSED
+"click(findTestObject(""inv_Login/button_Login""))",Chrome 104.0.5112.81,,,2022-08-15 12:59:25,2022-08-15 12:59:25,0.145s,PASSED
+"setText(findTestObject(""inv_Login/input_email""), email)",Chrome 104.0.5112.81,,,2022-08-15 12:59:25,2022-08-15 12:59:25,0.663s,PASSED
+"setText(findTestObject(""inv_Login/input_password""), password)",Chrome 104.0.5112.81,,,2022-08-15 12:59:25,2022-08-15 12:59:26,0.239s,PASSED
+"click(findTestObject(""inv_Login/button_Masuk""))",Chrome 104.0.5112.81,,,2022-08-15 12:59:26,2022-08-15 12:59:26,0.131s,PASSED
+"if (email == ""Tryregist@i-solution.co.id"" && password == ""12345678"" || email == ""Joshua@Sharklasers.com"" && password == ""12378910"")",Chrome 104.0.5112.81,,,2022-08-15 12:59:26,2022-08-15 12:59:26,0.705s,FAILED
+,,,,,,,
+Test Cases/inv_Login_Depa,Chrome 104.0.5112.81,,,2022-08-15 12:59:26,2022-08-15 12:59:46,19.334s,FAILED
+"openBrowser(""https://pex-dev.youarestellar.co.id/"")",Chrome 104.0.5112.81,,,2022-08-15 12:59:27,2022-08-15 12:59:44,17.560s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 104.0.5112.81,,,2022-08-15 12:59:44,2022-08-15 12:59:44,0.123s,PASSED
+"click(findTestObject(""inv_Login/button_Login""))",Chrome 104.0.5112.81,,,2022-08-15 12:59:44,2022-08-15 12:59:44,0.165s,PASSED
+"setText(findTestObject(""inv_Login/input_email""), email)",Chrome 104.0.5112.81,,,2022-08-15 12:59:44,2022-08-15 12:59:45,0.428s,PASSED
+"setText(findTestObject(""inv_Login/input_password""), password)",Chrome 104.0.5112.81,,,2022-08-15 12:59:45,2022-08-15 12:59:45,0.215s,PASSED
+"click(findTestObject(""inv_Login/button_Masuk""))",Chrome 104.0.5112.81,,,2022-08-15 12:59:45,2022-08-15 12:59:45,0.127s,PASSED
+"if (email == ""Tryregist@i-solution.co.id"" && password == ""12345678"" || email == ""Joshua@Sharklasers.com"" && password == ""12378910"")",Chrome 104.0.5112.81,,,2022-08-15 12:59:45,2022-08-15 12:59:45,0.000s,PASSED
+"else if (email == ""rudy.siawira@i-solution.co.id"" && password == ""12345678"" || email == ""Devi@Sharklasers.com"" && password == ""12345690"")",Chrome 104.0.5112.81,,,2022-08-15 12:59:45,2022-08-15 12:59:46,0.689s,FAILED

@@ -1,0 +1,128 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:22:25,2022-08-02 17:26:25,3m - 59.895s,PASSED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:22:25,2022-08-02 17:23:01,35.286s,PASSED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-08-02 17:22:26,2022-08-02 17:22:33,7.592s,PASSED
+"setText(findTestObject(""Search List SP/Page_/Field Search""), validSPId)",Chrome 103.0.5060.134,,,2022-08-02 17:22:33,2022-08-02 17:22:34,0.417s,PASSED
+delay(10),Chrome 103.0.5060.134,,,2022-08-02 17:22:34,2022-08-02 17:22:44,10.014s,PASSED
+"click(findTestObject(""Get Detail SP/Page_/span_arrow_detailSP""))",Chrome 103.0.5060.134,,,2022-08-02 17:22:44,2022-08-02 17:22:44,0.240s,PASSED
+delay(15),Chrome 103.0.5060.134,,,2022-08-02 17:22:44,2022-08-02 17:22:59,15.014s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/body_Company Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:22:59,2022-08-02 17:22:59,0.098s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_CompanyLogo""))",Chrome 103.0.5060.134,,,2022-08-02 17:22:59,2022-08-02 17:22:59,0.120s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_ContactPerson""))",Chrome 103.0.5060.134,,,2022-08-02 17:22:59,2022-08-02 17:22:59,0.112s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_Password""))",Chrome 103.0.5060.134,,,2022-08-02 17:22:59,2022-08-02 17:23:00,0.104s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_companyProfile""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:00,2022-08-02 17:23:00,0.087s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_edit""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:00,2022-08-02 17:23:00,0.093s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:00,2022-08-02 17:23:00,0.080s,PASSED
+"click(findTestObject(""Get Detail SP/Page_/button_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:00,2022-08-02 17:23:00,0.143s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:00,2022-08-02 17:23:00,0.114s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_back""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:00,2022-08-02 17:23:00,0.088s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-08-02 17:23:00,2022-08-02 17:23:01,0.593s,PASSED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:23:01,2022-08-02 17:23:37,36.304s,PASSED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-08-02 17:23:01,2022-08-02 17:23:10,8.901s,PASSED
+"setText(findTestObject(""Search List SP/Page_/Field Search""), validSPId)",Chrome 103.0.5060.134,,,2022-08-02 17:23:10,2022-08-02 17:23:10,0.626s,PASSED
+delay(10),Chrome 103.0.5060.134,,,2022-08-02 17:23:10,2022-08-02 17:23:20,10.005s,PASSED
+"click(findTestObject(""Get Detail SP/Page_/span_arrow_detailSP""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:20,2022-08-02 17:23:20,0.135s,PASSED
+delay(15),Chrome 103.0.5060.134,,,2022-08-02 17:23:20,2022-08-02 17:23:35,15.009s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/body_Company Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:35,2022-08-02 17:23:36,0.100s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_CompanyLogo""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:36,2022-08-02 17:23:36,0.117s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_ContactPerson""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:36,2022-08-02 17:23:36,0.108s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_Password""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:36,2022-08-02 17:23:36,0.092s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_companyProfile""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:36,2022-08-02 17:23:36,0.102s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_edit""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:36,2022-08-02 17:23:36,0.095s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:36,2022-08-02 17:23:36,0.094s,PASSED
+"click(findTestObject(""Get Detail SP/Page_/button_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:36,2022-08-02 17:23:36,0.141s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:36,2022-08-02 17:23:36,0.101s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_back""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:36,2022-08-02 17:23:37,0.088s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-08-02 17:23:37,2022-08-02 17:23:37,0.578s,PASSED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:23:37,2022-08-02 17:24:10,33.344s,PASSED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-08-02 17:23:37,2022-08-02 17:23:43,5.945s,PASSED
+"setText(findTestObject(""Search List SP/Page_/Field Search""), validSPId)",Chrome 103.0.5060.134,,,2022-08-02 17:23:43,2022-08-02 17:23:44,0.571s,PASSED
+delay(10),Chrome 103.0.5060.134,,,2022-08-02 17:23:44,2022-08-02 17:23:54,10.019s,PASSED
+"click(findTestObject(""Get Detail SP/Page_/span_arrow_detailSP""))",Chrome 103.0.5060.134,,,2022-08-02 17:23:54,2022-08-02 17:23:54,0.147s,PASSED
+delay(15),Chrome 103.0.5060.134,,,2022-08-02 17:23:54,2022-08-02 17:24:09,15.006s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/body_Company Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:09,2022-08-02 17:24:09,0.114s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_CompanyLogo""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:09,2022-08-02 17:24:09,0.149s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_ContactPerson""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:09,2022-08-02 17:24:09,0.107s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_Password""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:09,2022-08-02 17:24:09,0.090s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_companyProfile""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:09,2022-08-02 17:24:09,0.089s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_edit""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:09,2022-08-02 17:24:09,0.093s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:09,2022-08-02 17:24:10,0.093s,PASSED
+"click(findTestObject(""Get Detail SP/Page_/button_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:10,2022-08-02 17:24:10,0.150s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:10,2022-08-02 17:24:10,0.089s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_back""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:10,2022-08-02 17:24:10,0.089s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-08-02 17:24:10,2022-08-02 17:24:10,0.580s,PASSED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:24:10,2022-08-02 17:24:44,33.303s,PASSED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-08-02 17:24:10,2022-08-02 17:24:16,5.937s,PASSED
+"setText(findTestObject(""Search List SP/Page_/Field Search""), validSPId)",Chrome 103.0.5060.134,,,2022-08-02 17:24:16,2022-08-02 17:24:17,0.525s,PASSED
+delay(10),Chrome 103.0.5060.134,,,2022-08-02 17:24:17,2022-08-02 17:24:27,10.011s,PASSED
+"click(findTestObject(""Get Detail SP/Page_/span_arrow_detailSP""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:27,2022-08-02 17:24:27,0.155s,PASSED
+delay(15),Chrome 103.0.5060.134,,,2022-08-02 17:24:27,2022-08-02 17:24:42,15.007s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/body_Company Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:42,2022-08-02 17:24:42,0.098s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_CompanyLogo""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:42,2022-08-02 17:24:42,0.103s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_ContactPerson""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:42,2022-08-02 17:24:42,0.096s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_Password""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:42,2022-08-02 17:24:43,0.106s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_companyProfile""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:43,2022-08-02 17:24:43,0.089s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_edit""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:43,2022-08-02 17:24:43,0.093s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:43,2022-08-02 17:24:43,0.114s,PASSED
+"click(findTestObject(""Get Detail SP/Page_/button_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:43,2022-08-02 17:24:43,0.193s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:43,2022-08-02 17:24:43,0.097s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_back""))",Chrome 103.0.5060.134,,,2022-08-02 17:24:43,2022-08-02 17:24:43,0.089s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-08-02 17:24:43,2022-08-02 17:24:44,0.581s,PASSED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:24:44,2022-08-02 17:25:17,33.453s,PASSED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-08-02 17:24:44,2022-08-02 17:24:50,6.100s,PASSED
+"setText(findTestObject(""Search List SP/Page_/Field Search""), validSPId)",Chrome 103.0.5060.134,,,2022-08-02 17:24:50,2022-08-02 17:24:50,0.461s,PASSED
+delay(10),Chrome 103.0.5060.134,,,2022-08-02 17:24:50,2022-08-02 17:25:00,10.007s,PASSED
+"click(findTestObject(""Get Detail SP/Page_/span_arrow_detailSP""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:00,2022-08-02 17:25:01,0.143s,PASSED
+delay(15),Chrome 103.0.5060.134,,,2022-08-02 17:25:01,2022-08-02 17:25:16,15.012s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/body_Company Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:16,2022-08-02 17:25:16,0.103s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_CompanyLogo""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:16,2022-08-02 17:25:16,0.132s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_ContactPerson""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:16,2022-08-02 17:25:16,0.107s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_Password""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:16,2022-08-02 17:25:16,0.110s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_companyProfile""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:16,2022-08-02 17:25:16,0.111s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_edit""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:16,2022-08-02 17:25:16,0.101s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:16,2022-08-02 17:25:16,0.091s,PASSED
+"click(findTestObject(""Get Detail SP/Page_/button_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:16,2022-08-02 17:25:16,0.144s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:16,2022-08-02 17:25:17,0.125s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_back""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:17,2022-08-02 17:25:17,0.105s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-08-02 17:25:17,2022-08-02 17:25:17,0.592s,PASSED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:25:17,2022-08-02 17:25:52,34.431s,PASSED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-08-02 17:25:17,2022-08-02 17:25:24,6.849s,PASSED
+"setText(findTestObject(""Search List SP/Page_/Field Search""), validSPId)",Chrome 103.0.5060.134,,,2022-08-02 17:25:24,2022-08-02 17:25:25,0.743s,PASSED
+delay(10),Chrome 103.0.5060.134,,,2022-08-02 17:25:25,2022-08-02 17:25:35,10.004s,PASSED
+"click(findTestObject(""Get Detail SP/Page_/span_arrow_detailSP""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:35,2022-08-02 17:25:35,0.141s,PASSED
+delay(15),Chrome 103.0.5060.134,,,2022-08-02 17:25:35,2022-08-02 17:25:50,15.016s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/body_Company Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:50,2022-08-02 17:25:50,0.105s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_CompanyLogo""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:50,2022-08-02 17:25:50,0.116s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_ContactPerson""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:50,2022-08-02 17:25:50,0.107s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_Password""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:50,2022-08-02 17:25:50,0.092s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_companyProfile""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:50,2022-08-02 17:25:51,0.096s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_edit""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:51,2022-08-02 17:25:51,0.134s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:51,2022-08-02 17:25:51,0.094s,PASSED
+"click(findTestObject(""Get Detail SP/Page_/button_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:51,2022-08-02 17:25:51,0.147s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:51,2022-08-02 17:25:51,0.113s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_back""))",Chrome 103.0.5060.134,,,2022-08-02 17:25:51,2022-08-02 17:25:51,0.088s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-08-02 17:25:51,2022-08-02 17:25:52,0.576s,PASSED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Get Detail SP/Get Detail SP,Chrome 103.0.5060.134,,,2022-08-02 17:25:52,2022-08-02 17:26:25,33.243s,PASSED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-08-02 17:25:52,2022-08-02 17:25:57,5.726s,PASSED
+"setText(findTestObject(""Search List SP/Page_/Field Search""), validSPId)",Chrome 103.0.5060.134,,,2022-08-02 17:25:57,2022-08-02 17:25:58,0.666s,PASSED
+delay(10),Chrome 103.0.5060.134,,,2022-08-02 17:25:58,2022-08-02 17:26:08,10.012s,PASSED
+"click(findTestObject(""Get Detail SP/Page_/span_arrow_detailSP""))",Chrome 103.0.5060.134,,,2022-08-02 17:26:08,2022-08-02 17:26:08,0.199s,PASSED
+delay(15),Chrome 103.0.5060.134,,,2022-08-02 17:26:08,2022-08-02 17:26:23,15.009s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/body_Company Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:26:23,2022-08-02 17:26:23,0.097s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_CompanyLogo""))",Chrome 103.0.5060.134,,,2022-08-02 17:26:23,2022-08-02 17:26:24,0.101s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_ContactPerson""))",Chrome 103.0.5060.134,,,2022-08-02 17:26:24,2022-08-02 17:26:24,0.109s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_Password""))",Chrome 103.0.5060.134,,,2022-08-02 17:26:24,2022-08-02 17:26:24,0.091s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_companyProfile""))",Chrome 103.0.5060.134,,,2022-08-02 17:26:24,2022-08-02 17:26:24,0.087s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_edit""))",Chrome 103.0.5060.134,,,2022-08-02 17:26:24,2022-08-02 17:26:24,0.095s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:26:24,2022-08-02 17:26:24,0.095s,PASSED
+"click(findTestObject(""Get Detail SP/Page_/button_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:26:24,2022-08-02 17:26:24,0.158s,PASSED
+"verifyElementVisible(findTestObject(""Get Detail SP/Page_/body_Payment Details""))",Chrome 103.0.5060.134,,,2022-08-02 17:26:24,2022-08-02 17:26:24,0.099s,PASSED
+"verifyElementClickable(findTestObject(""Get Detail SP/Page_/button_back""))",Chrome 103.0.5060.134,,,2022-08-02 17:26:24,2022-08-02 17:26:24,0.091s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-08-02 17:26:24,2022-08-02 17:26:25,0.601s,PASSED

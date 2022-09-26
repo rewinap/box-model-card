@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="invLogin" time="107.065" tests="4" failures="0" errors="0">
+   <testsuite name="invLogin" tests="4" failures="0" errors="0" time="107.065" skipped="0" timestamp="2022-08-15 13:08:27" hostname="User - LAPTOP-N3L575R3" id="Test Suites/inv_login/invLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220815_130757\\inv_login\\invLogin\\20220815_130757"/>
+         <property name="logFiles" value="D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220815_130757\\inv_login\\invLogin\\20220815_130757\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - LAPTOP-N3L575R3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 104.0.5112.81"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="326480d7157f35b51edc56ed10d6e1fa"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/inv_Login_Depa" time="26.641" classname="Test Cases/inv_Login_Depa" status="PASSED">
+         <system-out><![CDATA[2022-08-15 13:08:27 - [TEST_CASE][PASSED] - Test Cases/inv_Login_Depa: Test Cases/inv_Login_Depa
+
+2022-08-15 13:08:28 - [TEST_STEP][PASSED] - openBrowser("https://pex-dev.youarestellar.co.id/"): Browser is opened with url: 'https://pex-dev.youarestellar.co.id/'
+
+2022-08-15 13:08:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-15 13:08:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-15 13:08:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://pex-dev.youarestellar.co.id/'
+
+2022-08-15 13:08:45 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2022-08-15 13:08:45 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-15 13:08:45 - [TEST_STEP][PASSED] - click(findTestObject("inv_Login/button_Login")): Object: 'Object Repository/inv_Login/button_Login' is clicked on
+
+2022-08-15 13:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/inv_Login/button_Login' is clicked on
+
+2022-08-15 13:08:46 - [TEST_STEP][PASSED] - setText(findTestObject("inv_Login/input_email"), email): Text 'Tryregist@i-solution.co.id' is set on object 'Object Repository/inv_Login/input_email'
+
+2022-08-15 13:08:47 - [MESSAGE][PASSED] - Text 'Tryregist@i-solution.co.id' is set on object 'Object Repository/inv_Login/input_email'
+
+2022-08-15 13:08:47 - [TEST_STEP][PASSED] - setText(findTestObject("inv_Login/input_password"), password): Text '12345678' is set on object 'Object Repository/inv_Login/input_password'
+
+2022-08-15 13:08:49 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/inv_Login/input_password'
+
+2022-08-15 13:08:49 - [TEST_STEP][PASSED] - click(findTestObject("inv_Login/button_Masuk")): Object: 'Object Repository/inv_Login/button_Masuk' is clicked on
+
+2022-08-15 13:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/inv_Login/button_Masuk' is clicked on
+
+2022-08-15 13:08:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-15 13:08:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-15 13:08:52 - [TEST_STEP][PASSED] - if (email == "Tryregist@i-solution.co.id" && password == "12345678" || email == "Joshua@Sharklasers.com" && password == "12378910"): Browser is closed
+
+2022-08-15 13:08:52 - [TEST_STEP][PASSED] - verifyTextPresent("Email belum terdaftar", false): Text 'Email belum terdaftar' is present on page 
+
+2022-08-15 13:08:52 - [MESSAGE][PASSED] - Text 'Email belum terdaftar' is present on page 
+
+2022-08-15 13:08:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-15 13:08:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/inv_Login_Depa" time="26.041" classname="Test Cases/inv_Login_Depa" status="PASSED">
+         <system-out><![CDATA[2022-08-15 13:08:54 - [TEST_CASE][PASSED] - Test Cases/inv_Login_Depa: Test Cases/inv_Login_Depa
+
+2022-08-15 13:08:54 - [TEST_STEP][PASSED] - openBrowser("https://pex-dev.youarestellar.co.id/"): Browser is opened with url: 'https://pex-dev.youarestellar.co.id/'
+
+2022-08-15 13:08:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-15 13:08:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-15 13:09:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://pex-dev.youarestellar.co.id/'
+
+2022-08-15 13:09:12 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2022-08-15 13:09:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-15 13:09:12 - [TEST_STEP][PASSED] - click(findTestObject("inv_Login/button_Login")): Object: 'Object Repository/inv_Login/button_Login' is clicked on
+
+2022-08-15 13:09:13 - [MESSAGE][PASSED] - Object: 'Object Repository/inv_Login/button_Login' is clicked on
+
+2022-08-15 13:09:13 - [TEST_STEP][PASSED] - setText(findTestObject("inv_Login/input_email"), email): Text 'rudy.siawira@i-solution.co.id' is set on object 'Object Repository/inv_Login/input_email'
+
+2022-08-15 13:09:14 - [MESSAGE][PASSED] - Text 'rudy.siawira@i-solution.co.id' is set on object 'Object Repository/inv_Login/input_email'
+
+2022-08-15 13:09:14 - [TEST_STEP][PASSED] - setText(findTestObject("inv_Login/input_password"), password): Text '12345678' is set on object 'Object Repository/inv_Login/input_password'
+
+2022-08-15 13:09:15 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/inv_Login/input_password'
+
+2022-08-15 13:09:15 - [TEST_STEP][PASSED] - click(findTestObject("inv_Login/button_Masuk")): Object: 'Object Repository/inv_Login/button_Masuk' is clicked on
+
+2022-08-15 13:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/inv_Login/button_Masuk' is clicked on
+
+2022-08-15 13:09:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-15 13:09:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-15 13:09:19 - [TEST_STEP][PASSED] - if (email == "Tryregist@i-solution.co.id" && password == "12345678" || email == "Joshua@Sharklasers.com" && password == "12378910"): null
+
+2022-08-15 13:09:19 - [TEST_STEP][PASSED] - else if (email == "rudy.siawira@i-solution.co.id" && password == "12345678" || email == "Devi@Sharklasers.com" && password == "12345690"): Browser is closed
+
+2022-08-15 13:09:19 - [TEST_STEP][PASSED] - verifyTextPresent("Password tidak sesuai", false): Text 'Password tidak sesuai' is present on page 
+
+2022-08-15 13:09:19 - [MESSAGE][PASSED] - Text 'Password tidak sesuai' is present on page 
+
+2022-08-15 13:09:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-15 13:09:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/inv_Login_Depa" time="29.596" classname="Test Cases/inv_Login_Depa" status="PASSED">
+         <system-out><![CDATA[2022-08-15 13:09:20 - [TEST_CASE][PASSED] - Test Cases/inv_Login_Depa: Test Cases/inv_Login_Depa
+
+2022-08-15 13:09:20 - [TEST_STEP][PASSED] - openBrowser("https://pex-dev.youarestellar.co.id/"): Browser is opened with url: 'https://pex-dev.youarestellar.co.id/'
+
+2022-08-15 13:09:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-15 13:09:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-15 13:09:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://pex-dev.youarestellar.co.id/'
+
+2022-08-15 13:09:42 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2022-08-15 13:09:42 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-15 13:09:42 - [TEST_STEP][PASSED] - click(findTestObject("inv_Login/button_Login")): Object: 'Object Repository/inv_Login/button_Login' is clicked on
+
+2022-08-15 13:09:42 - [MESSAGE][PASSED] - Object: 'Object Repository/inv_Login/button_Login' is clicked on
+
+2022-08-15 13:09:42 - [TEST_STEP][PASSED] - setText(findTestObject("inv_Login/input_email"), email): Text 'Joshua@Sharklasers.com' is set on object 'Object Repository/inv_Login/input_email'
+
+2022-08-15 13:09:44 - [MESSAGE][PASSED] - Text 'Joshua@Sharklasers.com' is set on object 'Object Repository/inv_Login/input_email'
+
+2022-08-15 13:09:44 - [TEST_STEP][PASSED] - setText(findTestObject("inv_Login/input_password"), password): Text '12378910' is set on object 'Object Repository/inv_Login/input_password'
+
+2022-08-15 13:09:45 - [MESSAGE][PASSED] - Text '12378910' is set on object 'Object Repository/inv_Login/input_password'
+
+2022-08-15 13:09:45 - [TEST_STEP][PASSED] - click(findTestObject("inv_Login/button_Masuk")): Object: 'Object Repository/inv_Login/button_Masuk' is clicked on
+
+2022-08-15 13:09:45 - [MESSAGE][PASSED] - Object: 'Object Repository/inv_Login/button_Masuk' is clicked on
+
+2022-08-15 13:09:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-15 13:09:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-15 13:09:48 - [TEST_STEP][PASSED] - if (email == "Tryregist@i-solution.co.id" && password == "12345678" || email == "Joshua@Sharklasers.com" && password == "12378910"): Browser is closed
+
+2022-08-15 13:09:48 - [TEST_STEP][PASSED] - verifyTextPresent("Email belum terdaftar", false): Text 'Email belum terdaftar' is present on page 
+
+2022-08-15 13:09:49 - [MESSAGE][PASSED] - Text 'Email belum terdaftar' is present on page 
+
+2022-08-15 13:09:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-15 13:09:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/inv_Login_Depa" time="24.222" classname="Test Cases/inv_Login_Depa" status="PASSED">
+         <system-out><![CDATA[2022-08-15 13:09:49 - [TEST_CASE][PASSED] - Test Cases/inv_Login_Depa: Test Cases/inv_Login_Depa
+
+2022-08-15 13:09:49 - [TEST_STEP][PASSED] - openBrowser("https://pex-dev.youarestellar.co.id/"): Browser is opened with url: 'https://pex-dev.youarestellar.co.id/'
+
+2022-08-15 13:09:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-15 13:09:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-15 13:10:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://pex-dev.youarestellar.co.id/'
+
+2022-08-15 13:10:06 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2022-08-15 13:10:06 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-15 13:10:06 - [TEST_STEP][PASSED] - click(findTestObject("inv_Login/button_Login")): Object: 'Object Repository/inv_Login/button_Login' is clicked on
+
+2022-08-15 13:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/inv_Login/button_Login' is clicked on
+
+2022-08-15 13:10:07 - [TEST_STEP][PASSED] - setText(findTestObject("inv_Login/input_email"), email): Text 'Devi@Sharklasers.com' is set on object 'Object Repository/inv_Login/input_email'
+
+2022-08-15 13:10:08 - [MESSAGE][PASSED] - Text 'Devi@Sharklasers.com' is set on object 'Object Repository/inv_Login/input_email'
+
+2022-08-15 13:10:08 - [TEST_STEP][PASSED] - setText(findTestObject("inv_Login/input_password"), password): Text '12345690' is set on object 'Object Repository/inv_Login/input_password'
+
+2022-08-15 13:10:09 - [MESSAGE][PASSED] - Text '12345690' is set on object 'Object Repository/inv_Login/input_password'
+
+2022-08-15 13:10:09 - [TEST_STEP][PASSED] - click(findTestObject("inv_Login/button_Masuk")): Object: 'Object Repository/inv_Login/button_Masuk' is clicked on
+
+2022-08-15 13:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/inv_Login/button_Masuk' is clicked on
+
+2022-08-15 13:10:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-15 13:10:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-15 13:10:13 - [TEST_STEP][PASSED] - if (email == "Tryregist@i-solution.co.id" && password == "12345678" || email == "Joshua@Sharklasers.com" && password == "12378910"): null
+
+2022-08-15 13:10:13 - [TEST_STEP][PASSED] - else if (email == "rudy.siawira@i-solution.co.id" && password == "12345678" || email == "Devi@Sharklasers.com" && password == "12345690"): Browser is closed
+
+2022-08-15 13:10:13 - [TEST_STEP][PASSED] - verifyTextPresent("Password tidak sesuai", false): Text 'Password tidak sesuai' is present on page 
+
+2022-08-15 13:10:13 - [MESSAGE][PASSED] - Text 'Password tidak sesuai' is present on page 
+
+2022-08-15 13:10:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-15 13:10:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-15 13:08:27 - [TEST_SUITE][PASSED] - invLogin: Test Cases/inv_Login_Depa]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

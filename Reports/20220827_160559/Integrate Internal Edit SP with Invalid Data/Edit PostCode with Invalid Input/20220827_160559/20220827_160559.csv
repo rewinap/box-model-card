@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Edit PostCode with Invalid Input,Chrome 104.0.5112.102,,,2022-08-27 16:06:25,2022-08-27 16:09:00,2m - 35.549s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv,Chrome 104.0.5112.102,,,2022-08-27 16:06:25,2022-08-27 16:07:05,39.825s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 16:06:26,2022-08-27 16:06:38,12.667s,PASSED
+"callTestCase(findTestCase(""PreCondition/Edit-Valid Param/Search ID""), [:], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 16:06:38,2022-08-27 16:07:00,21.206s,PASSED
+"sendKeys(findTestObject(""Add SP with valid data/Page_/AddSP_inputPostalcode""), Keys.chord(CONTROL, ""a""))",Chrome 104.0.5112.102,,,2022-08-27 16:07:00,2022-08-27 16:07:00,0.205s,PASSED
+"sendKeys(findTestObject(""Add SP with valid data/Page_/AddSP_inputPostalcode""), Keys.chord(BACK_SPACE))",Chrome 104.0.5112.102,,,2022-08-27 16:07:00,2022-08-27 16:07:00,0.114s,PASSED
+"setText(findTestObject(""Add SP with valid data/Page_/AddSP_inputPostalcode""), PostCode)",Chrome 104.0.5112.102,,,2022-08-27 16:07:00,2022-08-27 16:07:00,0.203s,PASSED
+"scrollToPosition(10, 10)",Chrome 104.0.5112.102,,,2022-08-27 16:07:00,2022-08-27 16:07:00,0.040s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-27 16:07:00,2022-08-27 16:07:03,3.011s,PASSED
+"click(findTestObject(""Edit SP/Button_SaveChanges""))",Chrome 104.0.5112.102,,,2022-08-27 16:07:03,2022-08-27 16:07:03,0.315s,PASSED
+"if (PostCode == """")",Chrome 104.0.5112.102,,,2022-08-27 16:07:03,2022-08-27 16:07:03,0.000s,PASSED
+else,Chrome 104.0.5112.102,,,2022-08-27 16:07:03,2022-08-27 16:07:05,1.592s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv,Chrome 104.0.5112.102,,,2022-08-27 16:07:05,2022-08-27 16:07:42,37.336s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 16:07:05,2022-08-27 16:07:16,11.206s,PASSED
+"callTestCase(findTestCase(""PreCondition/Edit-Valid Param/Search ID""), [:], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 16:07:16,2022-08-27 16:07:37,20.778s,PASSED
+"sendKeys(findTestObject(""Add SP with valid data/Page_/AddSP_inputPostalcode""), Keys.chord(CONTROL, ""a""))",Chrome 104.0.5112.102,,,2022-08-27 16:07:37,2022-08-27 16:07:37,0.154s,PASSED
+"sendKeys(findTestObject(""Add SP with valid data/Page_/AddSP_inputPostalcode""), Keys.chord(BACK_SPACE))",Chrome 104.0.5112.102,,,2022-08-27 16:07:37,2022-08-27 16:07:37,0.116s,PASSED
+"setText(findTestObject(""Add SP with valid data/Page_/AddSP_inputPostalcode""), PostCode)",Chrome 104.0.5112.102,,,2022-08-27 16:07:37,2022-08-27 16:07:38,0.175s,PASSED
+"scrollToPosition(10, 10)",Chrome 104.0.5112.102,,,2022-08-27 16:07:38,2022-08-27 16:07:38,0.016s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-27 16:07:38,2022-08-27 16:07:41,3.006s,PASSED
+"click(findTestObject(""Edit SP/Button_SaveChanges""))",Chrome 104.0.5112.102,,,2022-08-27 16:07:41,2022-08-27 16:07:41,0.303s,PASSED
+"if (PostCode == """")",Chrome 104.0.5112.102,,,2022-08-27 16:07:41,2022-08-27 16:07:41,0.000s,PASSED
+else,Chrome 104.0.5112.102,,,2022-08-27 16:07:41,2022-08-27 16:07:42,1.523s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv,Chrome 104.0.5112.102,,,2022-08-27 16:07:42,2022-08-27 16:08:19,36.960s,FAILED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 16:07:43,2022-08-27 16:07:53,10.821s,PASSED
+"callTestCase(findTestCase(""PreCondition/Edit-Valid Param/Search ID""), [:], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 16:07:53,2022-08-27 16:08:14,20.876s,PASSED
+"sendKeys(findTestObject(""Add SP with valid data/Page_/AddSP_inputPostalcode""), Keys.chord(CONTROL, ""a""))",Chrome 104.0.5112.102,,,2022-08-27 16:08:14,2022-08-27 16:08:14,0.153s,PASSED
+"sendKeys(findTestObject(""Add SP with valid data/Page_/AddSP_inputPostalcode""), Keys.chord(BACK_SPACE))",Chrome 104.0.5112.102,,,2022-08-27 16:08:14,2022-08-27 16:08:14,0.099s,PASSED
+"setText(findTestObject(""Add SP with valid data/Page_/AddSP_inputPostalcode""), PostCode)",Chrome 104.0.5112.102,,,2022-08-27 16:08:14,2022-08-27 16:08:15,0.174s,PASSED
+"scrollToPosition(10, 10)",Chrome 104.0.5112.102,,,2022-08-27 16:08:15,2022-08-27 16:08:15,0.014s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-27 16:08:15,2022-08-27 16:08:18,3.006s,PASSED
+"click(findTestObject(""Edit SP/Button_SaveChanges""))",Chrome 104.0.5112.102,,,2022-08-27 16:08:18,2022-08-27 16:08:18,0.305s,PASSED
+"if (PostCode == """")",Chrome 104.0.5112.102,,,2022-08-27 16:08:18,2022-08-27 16:08:18,0.000s,PASSED
+else,Chrome 104.0.5112.102,,,2022-08-27 16:08:18,2022-08-27 16:08:19,1.441s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv,Chrome 104.0.5112.102,,,2022-08-27 16:08:19,2022-08-27 16:09:00,40.894s,PASSED
+"callTestCase(findTestCase(""PreCondition/SP""), [""validData"":""""], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 16:08:19,2022-08-27 16:08:32,12.218s,PASSED
+"callTestCase(findTestCase(""PreCondition/Edit-Valid Param/Search ID""), [:], CONTINUE_ON_FAILURE)",Chrome 104.0.5112.102,,,2022-08-27 16:08:32,2022-08-27 16:08:55,23.549s,PASSED
+"sendKeys(findTestObject(""Add SP with valid data/Page_/AddSP_inputPostalcode""), Keys.chord(CONTROL, ""a""))",Chrome 104.0.5112.102,,,2022-08-27 16:08:55,2022-08-27 16:08:55,0.123s,PASSED
+"sendKeys(findTestObject(""Add SP with valid data/Page_/AddSP_inputPostalcode""), Keys.chord(BACK_SPACE))",Chrome 104.0.5112.102,,,2022-08-27 16:08:55,2022-08-27 16:08:55,0.112s,PASSED
+"setText(findTestObject(""Add SP with valid data/Page_/AddSP_inputPostalcode""), PostCode)",Chrome 104.0.5112.102,,,2022-08-27 16:08:55,2022-08-27 16:08:56,0.202s,PASSED
+"scrollToPosition(10, 10)",Chrome 104.0.5112.102,,,2022-08-27 16:08:56,2022-08-27 16:08:56,0.018s,PASSED
+delay(3),Chrome 104.0.5112.102,,,2022-08-27 16:08:56,2022-08-27 16:08:59,3.004s,PASSED
+"click(findTestObject(""Edit SP/Button_SaveChanges""))",Chrome 104.0.5112.102,,,2022-08-27 16:08:59,2022-08-27 16:08:59,0.288s,PASSED
+"if (PostCode == """")",Chrome 104.0.5112.102,,,2022-08-27 16:08:59,2022-08-27 16:08:59,0.000s,PASSED
+else,Chrome 104.0.5112.102,,,2022-08-27 16:08:59,2022-08-27 16:09:00,1.327s,PASSED

@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Get List SP - Valid Data" time="169.688" tests="6" failures="1" errors="0">
+   <testsuite name="Get List SP - Valid Data" tests="6" failures="1" errors="0" time="169.688" skipped="0" timestamp="2022-07-26 11:36:45" hostname="User - LAPTOP-N3L575R3" id="Test Suites/Get List SP - Valid Data">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220726_113613\\Get List SP - Valid Data\\20220726_113613"/>
+         <property name="logFiles" value="D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220726_113613\\Get List SP - Valid Data\\20220726_113613\\execution0.log"/>
+         <property name="attachments" value="D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220726_113613\\Get List SP - Valid Data\\20220726_113613\\1658810264029.png"/>
+         <property name="hostName" value="User - LAPTOP-N3L575R3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.134"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="51aef384967279ba0d830b780a506bb2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Customer-Internal TMS/Get List SP with valid city" time="60.079" classname="Test Cases/Customer-Internal TMS/Get List SP with valid city" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Customer-Internal TMS/Get List SP with valid city FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search-City/Page_/listCity'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Get List SP with valid city.run(Get List SP with valid city:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658810173732.run(TempTestSuite1658810173732.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Search-City/Page_/listCity' located by '//li[@id='autocomplete-search-by-city-option-0']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-07-26 11:36:45 - [TEST_CASE][FAILED] - Test Cases/Customer-Internal TMS/Get List SP with valid city: Test Cases/Customer-Internal TMS/Get List SP with valid city FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search-City/Page_/listCity'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Get List SP with valid city.run(Get List SP with valid city:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658810173732.run(TempTestSuite1658810173732.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Search-City/Page_/listCity' located by '//li[@id='autocomplete-search-by-city-option-0']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-07-26 11:36:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/SP"), ["validData":""], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/SP' successfully
+
+2022-07-26 11:36:47 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/SP: Test Cases/Customer-Internal TMS/SP
+
+2022-07-26 11:36:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:36:48 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Login Internal-TMS: Test Cases/Customer-Internal TMS/Login Internal-TMS
+
+2022-07-26 11:36:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 11:36:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 11:36:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 11:36:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 11:36:58 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:37:02 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:37:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Company Email_email"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:37:03 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:37:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Password_password"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:37:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:37:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:37:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:37:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-26 11:37:05 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-26 11:37:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Arrow Management")): Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:37:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:37:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:37:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/SP' successfully
+
+2022-07-26 11:37:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search-City/Page_/Field Choose City"), validCity): Text 'Jawa Barat' is set on object 'Object Repository/Search-City/Page_/Field Choose City'
+
+2022-07-26 11:37:12 - [MESSAGE][PASSED] - Text 'Jawa Barat' is set on object 'Object Repository/Search-City/Page_/Field Choose City'
+
+2022-07-26 11:37:12 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Search-City/Page_/listCity")): Unable to click on object 'Object Repository/Search-City/Page_/listCity' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search-City/Page_/listCity'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Get List SP with valid city.run(Get List SP with valid city:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658810173732.run(TempTestSuite1658810173732.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Search-City/Page_/listCity' located by '//li[@id='autocomplete-search-by-city-option-0']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1658809181235.run(Script1658809181235.groovy:41)
+	... 13 more
+)
+
+2022-07-26 11:37:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[@id='autocomplete-search-by-city-option-0']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-26 11:37:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Search-City/Page_/listCity' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search-City/Page_/listCity'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Get List SP with valid city.run(Get List SP with valid city:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658810173732.run(TempTestSuite1658810173732.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Search-City/Page_/listCity' located by '//li[@id='autocomplete-search-by-city-option-0']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1658809181235.run(Script1658809181235.groovy:41)
+	... 13 more
+)
+[[ATTACHMENT|D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220726_113613\\Get List SP - Valid Data\\20220726_113613\\1658810264029.png]]]]></system-out>
+         <system-err><![CDATA[2022-07-26 11:36:45 - [TEST_CASE][FAILED] - Test Cases/Customer-Internal TMS/Get List SP with valid city: Test Cases/Customer-Internal TMS/Get List SP with valid city FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search-City/Page_/listCity'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Get List SP with valid city.run(Get List SP with valid city:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658810173732.run(TempTestSuite1658810173732.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Search-City/Page_/listCity' located by '//li[@id='autocomplete-search-by-city-option-0']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer-Internal TMS/Get List SP with valid city" time="21.004" classname="Test Cases/Customer-Internal TMS/Get List SP with valid city" status="PASSED">
+         <system-out><![CDATA[2022-07-26 11:37:45 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Get List SP with valid city: Test Cases/Customer-Internal TMS/Get List SP with valid city
+
+2022-07-26 11:37:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/SP"), ["validData":""], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/SP' successfully
+
+2022-07-26 11:37:45 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/SP: Test Cases/Customer-Internal TMS/SP
+
+2022-07-26 11:37:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:37:46 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Login Internal-TMS: Test Cases/Customer-Internal TMS/Login Internal-TMS
+
+2022-07-26 11:37:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 11:37:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-26 11:37:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 11:37:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 11:37:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 11:37:50 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:37:53 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:37:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Company Email_email"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:37:54 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:37:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Password_password"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:37:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:37:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:37:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:37:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:37:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-26 11:37:56 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-26 11:37:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Arrow Management")): Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:37:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:37:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/SP' successfully
+
+2022-07-26 11:37:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search-City/Page_/Field Choose City"), validCity): Text 'Bogor Kota' is set on object 'Object Repository/Search-City/Page_/Field Choose City'
+
+2022-07-26 11:38:01 - [MESSAGE][PASSED] - Text 'Bogor Kota' is set on object 'Object Repository/Search-City/Page_/Field Choose City'
+
+2022-07-26 11:38:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search-City/Page_/listCity")): Object: 'Object Repository/Search-City/Page_/listCity' is clicked on
+
+2022-07-26 11:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Search-City/Page_/listCity' is clicked on
+
+2022-07-26 11:38:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Search-City/Page_/city arrow"), 0): Object 'Object Repository/Search-City/Page_/city arrow' is present
+
+2022-07-26 11:38:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-26 11:38:05 - [MESSAGE][PASSED] - Object 'Object Repository/Search-City/Page_/city arrow' is present
+
+2022-07-26 11:38:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-26 11:38:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer-Internal TMS/Get List SP with valid city" time="19.025" classname="Test Cases/Customer-Internal TMS/Get List SP with valid city" status="PASSED">
+         <system-out><![CDATA[2022-07-26 11:38:06 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Get List SP with valid city: Test Cases/Customer-Internal TMS/Get List SP with valid city
+
+2022-07-26 11:38:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/SP"), ["validData":""], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/SP' successfully
+
+2022-07-26 11:38:06 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/SP: Test Cases/Customer-Internal TMS/SP
+
+2022-07-26 11:38:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:38:07 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Login Internal-TMS: Test Cases/Customer-Internal TMS/Login Internal-TMS
+
+2022-07-26 11:38:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 11:38:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 11:38:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 11:38:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 11:38:10 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:38:13 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:38:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Company Email_email"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:38:14 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:38:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Password_password"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:38:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:38:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:38:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:38:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-26 11:38:15 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-26 11:38:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Arrow Management")): Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:38:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:38:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/SP' successfully
+
+2022-07-26 11:38:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search-City/Page_/Field Choose City"), validCity): Text 'Ciamis' is set on object 'Object Repository/Search-City/Page_/Field Choose City'
+
+2022-07-26 11:38:21 - [MESSAGE][PASSED] - Text 'Ciamis' is set on object 'Object Repository/Search-City/Page_/Field Choose City'
+
+2022-07-26 11:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search-City/Page_/listCity")): Object: 'Object Repository/Search-City/Page_/listCity' is clicked on
+
+2022-07-26 11:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Search-City/Page_/listCity' is clicked on
+
+2022-07-26 11:38:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Search-City/Page_/city arrow"), 0): Object 'Object Repository/Search-City/Page_/city arrow' is present
+
+2022-07-26 11:38:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-26 11:38:24 - [MESSAGE][PASSED] - Object 'Object Repository/Search-City/Page_/city arrow' is present
+
+2022-07-26 11:38:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-26 11:38:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer-Internal TMS/Get List SP with valid city" time="20.664" classname="Test Cases/Customer-Internal TMS/Get List SP with valid city" status="PASSED">
+         <system-out><![CDATA[2022-07-26 11:38:25 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Get List SP with valid city: Test Cases/Customer-Internal TMS/Get List SP with valid city
+
+2022-07-26 11:38:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/SP"), ["validData":""], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/SP' successfully
+
+2022-07-26 11:38:25 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/SP: Test Cases/Customer-Internal TMS/SP
+
+2022-07-26 11:38:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:38:26 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Login Internal-TMS: Test Cases/Customer-Internal TMS/Login Internal-TMS
+
+2022-07-26 11:38:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 11:38:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 11:38:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 11:38:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 11:38:29 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:38:32 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:38:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Company Email_email"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:38:34 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:38:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Password_password"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:38:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:38:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:38:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:38:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-26 11:38:35 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-26 11:38:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Arrow Management")): Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:38:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:38:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/SP' successfully
+
+2022-07-26 11:38:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search-City/Page_/Field Choose City"), validCity): Text 'Jakarta Selatan' is set on object 'Object Repository/Search-City/Page_/Field Choose City'
+
+2022-07-26 11:38:41 - [MESSAGE][PASSED] - Text 'Jakarta Selatan' is set on object 'Object Repository/Search-City/Page_/Field Choose City'
+
+2022-07-26 11:38:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search-City/Page_/listCity")): Object: 'Object Repository/Search-City/Page_/listCity' is clicked on
+
+2022-07-26 11:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Search-City/Page_/listCity' is clicked on
+
+2022-07-26 11:38:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Search-City/Page_/city arrow"), 0): Object 'Object Repository/Search-City/Page_/city arrow' is present
+
+2022-07-26 11:38:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-26 11:38:45 - [MESSAGE][PASSED] - Object 'Object Repository/Search-City/Page_/city arrow' is present
+
+2022-07-26 11:38:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-26 11:38:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer-Internal TMS/Get List SP with valid city" time="24.371" classname="Test Cases/Customer-Internal TMS/Get List SP with valid city" status="PASSED">
+         <system-out><![CDATA[2022-07-26 11:38:46 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Get List SP with valid city: Test Cases/Customer-Internal TMS/Get List SP with valid city
+
+2022-07-26 11:38:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/SP"), ["validData":""], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/SP' successfully
+
+2022-07-26 11:38:46 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/SP: Test Cases/Customer-Internal TMS/SP
+
+2022-07-26 11:38:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:38:46 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Login Internal-TMS: Test Cases/Customer-Internal TMS/Login Internal-TMS
+
+2022-07-26 11:38:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 11:38:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 11:38:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 11:38:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 11:38:52 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:38:57 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:38:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Company Email_email"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:38:58 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:38:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Password_password"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:38:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:38:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:38:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:38:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:38:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-26 11:38:59 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-26 11:38:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Arrow Management")): Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:39:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:39:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/SP' successfully
+
+2022-07-26 11:39:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search-City/Page_/Field Choose City"), validCity): Text 'Jakarta Pusat' is set on object 'Object Repository/Search-City/Page_/Field Choose City'
+
+2022-07-26 11:39:05 - [MESSAGE][PASSED] - Text 'Jakarta Pusat' is set on object 'Object Repository/Search-City/Page_/Field Choose City'
+
+2022-07-26 11:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search-City/Page_/listCity")): Object: 'Object Repository/Search-City/Page_/listCity' is clicked on
+
+2022-07-26 11:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Search-City/Page_/listCity' is clicked on
+
+2022-07-26 11:39:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Search-City/Page_/city arrow"), 0): Object 'Object Repository/Search-City/Page_/city arrow' is present
+
+2022-07-26 11:39:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-26 11:39:09 - [MESSAGE][PASSED] - Object 'Object Repository/Search-City/Page_/city arrow' is present
+
+2022-07-26 11:39:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-26 11:39:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer-Internal TMS/Get List SP with valid city" time="23.983" classname="Test Cases/Customer-Internal TMS/Get List SP with valid city" status="PASSED">
+         <system-out><![CDATA[2022-07-26 11:39:10 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Get List SP with valid city: Test Cases/Customer-Internal TMS/Get List SP with valid city
+
+2022-07-26 11:39:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/SP"), ["validData":""], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/SP' successfully
+
+2022-07-26 11:39:11 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/SP: Test Cases/Customer-Internal TMS/SP
+
+2022-07-26 11:39:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Customer-Internal TMS/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:39:11 - [TEST_CASE][PASSED] - Test Cases/Customer-Internal TMS/Login Internal-TMS: Test Cases/Customer-Internal TMS/Login Internal-TMS
+
+2022-07-26 11:39:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-26 11:39:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-26 11:39:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-26 11:39:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-26 11:39:14 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:39:18 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-07-26 11:39:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Company Email_email"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:39:19 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/input_Company Email_email'
+
+2022-07-26 11:39:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Internal TMS/Page_/input_Password_password"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:39:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/input_Password_password'
+
+2022-07-26 11:39:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-07-26 11:39:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/Login Internal-TMS' successfully
+
+2022-07-26 11:39:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-26 11:39:20 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-26 11:39:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Arrow Management")): Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Arrow Management' is clicked on
+
+2022-07-26 11:39:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-07-26 11:39:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Customer-Internal TMS/SP' successfully
+
+2022-07-26 11:39:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search-City/Page_/Field Choose City"), validCity): Text 'Aceh Barat' is set on object 'Object Repository/Search-City/Page_/Field Choose City'
+
+2022-07-26 11:39:28 - [MESSAGE][PASSED] - Text 'Aceh Barat' is set on object 'Object Repository/Search-City/Page_/Field Choose City'
+
+2022-07-26 11:39:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search-City/Page_/listCity")): Object: 'Object Repository/Search-City/Page_/listCity' is clicked on
+
+2022-07-26 11:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Search-City/Page_/listCity' is clicked on
+
+2022-07-26 11:39:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Search-City/Page_/city arrow"), 0): Object 'Object Repository/Search-City/Page_/city arrow' is present
+
+2022-07-26 11:39:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-26 11:39:32 - [MESSAGE][PASSED] - Object 'Object Repository/Search-City/Page_/city arrow' is present
+
+2022-07-26 11:39:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-26 11:39:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-26 11:36:45 - [TEST_SUITE][FAILED] - Get List SP - Valid Data: Test Cases/Customer-Internal TMS/Get List SP with valid city FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search-City/Page_/listCity'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Get List SP with valid city.run(Get List SP with valid city:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658810173732.run(TempTestSuite1658810173732.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Search-City/Page_/listCity' located by '//li[@id='autocomplete-search-by-city-option-0']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-07-26 11:36:45 - [TEST_SUITE][FAILED] - Get List SP - Valid Data: Test Cases/Customer-Internal TMS/Get List SP with valid city FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Search-City/Page_/listCity'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Get List SP with valid city.run(Get List SP with valid city:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658810173732.run(TempTestSuite1658810173732.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Search-City/Page_/listCity' located by '//li[@id='autocomplete-search-by-city-option-0']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit Company Email With Invalid Data" time="160.065" tests="3" failures="1" errors="0">
+   <testsuite name="Edit Company Email With Invalid Data" tests="3" failures="1" errors="0" time="160.065" skipped="0" timestamp="2022-08-27 15:08:41" hostname="User - LAPTOP-N3L575R3" id="Test Suites/Integrate Internal Edit SP with Invalid Data/Edit Company Email With Invalid Data">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220827_150812\\Integrate Internal Edit SP with Invalid Data\\Edit Company Email With Invalid Data\\20220827_150812"/>
+         <property name="logFiles" value="D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220827_150812\\Integrate Internal Edit SP with Invalid Data\\Edit Company Email With Invalid Data\\20220827_150812\\execution0.log"/>
+         <property name="attachments" value="D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220827_150812\\Integrate Internal Edit SP with Invalid Data\\Edit Company Email With Invalid Data\\20220827_150812\\1661587825556.png"/>
+         <property name="hostName" value="User - LAPTOP-N3L575R3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 104.0.5112.102"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="00d8f9ae60883162fcdca69048ac51a5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv" time="58.172" classname="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv" status="PASSED">
+         <system-out><![CDATA[2022-08-27 15:08:42 - [TEST_CASE][PASSED] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv
+
+2022-08-27 15:08:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/SP"), ["validData":""], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 15:08:43 - [TEST_CASE][PASSED] - Test Cases/PreCondition/SP: Test Cases/PreCondition/SP
+
+2022-08-27 15:08:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 15:08:43 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Login Internal-TMS: Test Cases/PreCondition/Login Internal-TMS
+
+2022-08-27 15:08:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-27 15:08:44 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-08-27 15:08:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-27 15:08:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-27 15:08:47 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 15:08:58 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 15:08:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login Internal TMS/Page_/Login_inputEmail"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 15:08:59 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 15:08:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Internal TMS/Page_/Login_inputPassword"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 15:08:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 15:08:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 15:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 15:08:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 15:08:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-27 15:08:59 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-27 15:08:59 - [TEST_STEP][PASSED] - click(findTestObject("Search List SP/Page_/Page_/span_User Management")): Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 15:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 15:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 15:09:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 15:09:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 15:09:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Edit-Valid Param/Search ID"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 15:09:08 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Edit-Valid Param/Search ID: Test Cases/PreCondition/Edit-Valid Param/Search ID
+
+2022-08-27 15:09:09 - [TEST_STEP][PASSED] - setText(findTestObject("Search List SP/Page_/Field Search"), validSPId): Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 15:09:09 - [MESSAGE][PASSED] - Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 15:09:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 15:09:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 15:09:14 - [TEST_STEP][PASSED] - click(findTestObject("Get Detail SP/Page_/span_arrow_detailSP")): Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 15:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 15:09:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-08-27 15:09:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-08-27 15:09:24 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/ButtonEdit")): Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 15:09:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 15:09:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 15:09:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 15:09:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 15:09:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/addSP_input Email"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:09:30 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:09:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/addSP_input Email"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:09:30 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:09:30 - [TEST_STEP][PASSED] - setText(findTestObject("Add SP with valid data/Page_/addSP_input Email"), Cemail): Text '' is set on object 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:09:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:09:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Edit-Valid Param/Validasi"), ["Cekpostcode":"", "valuePostcode":"", "valueAddress":"", "PostCode":"20118", "Address":"SUMUT, Medan"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Validasi' successfully
+
+2022-08-27 15:09:30 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Edit-Valid Param/Validasi: Test Cases/PreCondition/Edit-Valid Param/Validasi
+
+2022-08-27 15:09:30 - [TEST_STEP][PASSED] - valuePostcode = getText(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode")): Text of object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode' is: ''
+
+2022-08-27 15:09:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode' is: ''
+
+2022-08-27 15:09:31 - [TEST_STEP][PASSED] - valueAddress = getText(findTestObject("Add SP with valid data/Page_/input_Address")): Text of object 'Object Repository/Add SP with valid data/Page_/input_Address' is: ''
+
+2022-08-27 15:09:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add SP with valid data/Page_/input_Address' is: ''
+
+2022-08-27 15:09:31 - [TEST_STEP][PASSED] - if (valuePostcode == ""): Text '20118' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 15:09:31 - [TEST_STEP][PASSED] - setText(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), PostCode): Text '20118' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 15:09:31 - [MESSAGE][PASSED] - Text '20118' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 15:09:31 - [TEST_STEP][PASSED] - if (valueAddress == ""): Text 'SUMUT, Medan' is set on object 'Object Repository/Add SP with valid data/Page_/input_Address'
+
+2022-08-27 15:09:31 - [TEST_STEP][PASSED] - setText(findTestObject("Add SP with valid data/Page_/input_Address"), Address): Text 'SUMUT, Medan' is set on object 'Object Repository/Add SP with valid data/Page_/input_Address'
+
+2022-08-27 15:09:31 - [MESSAGE][PASSED] - Text 'SUMUT, Medan' is set on object 'Object Repository/Add SP with valid data/Page_/input_Address'
+
+2022-08-27 15:09:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 15:09:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 15:09:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Validasi' successfully
+
+2022-08-27 15:09:36 - [TEST_STEP][PASSED] - scrollToPosition(10, 10): Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 15:09:37 - [MESSAGE][PASSED] - Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 15:09:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-27 15:09:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-27 15:09:40 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/Button_SaveChanges")): Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 15:09:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 15:09:40 - [TEST_STEP][PASSED] - valueEmail = getText(findTestObject("Add SP with valid data/Page_/addSP_input Email")): Text of object 'Object Repository/Add SP with valid data/Page_/addSP_input Email' is: ''
+
+2022-08-27 15:09:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add SP with valid data/Page_/addSP_input Email' is: ''
+
+2022-08-27 15:09:40 - [TEST_STEP][PASSED] - if (valueEmail == ""): Actual text and expected text of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are matched.
+
+2022-08-27 15:09:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Validation_With Empty String/Page_/EmptyString_C_Email"), "Company email must be filled"): Actual text and expected text of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are matched.
+
+2022-08-27 15:09:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv" time="45.301" classname="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at 2_Edit Company Email_Inv.run(2_Edit Company Email_Inv:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661587692955.run(TempTestSuite1661587692955.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at 2_Edit Company Email_Inv.run(2_Edit Company Email_Inv:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661587692955.run(TempTestSuite1661587692955.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched.
+	... 23 more
+"/>
+         <system-out><![CDATA[2022-08-27 15:09:40 - [TEST_CASE][FAILED] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at 2_Edit Company Email_Inv.run(2_Edit Company Email_Inv:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661587692955.run(TempTestSuite1661587692955.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at 2_Edit Company Email_Inv.run(2_Edit Company Email_Inv:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661587692955.run(TempTestSuite1661587692955.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched.
+	... 23 more
+
+
+2022-08-27 15:09:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/SP"), ["validData":""], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 15:09:40 - [TEST_CASE][PASSED] - Test Cases/PreCondition/SP: Test Cases/PreCondition/SP
+
+2022-08-27 15:09:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 15:09:40 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Login Internal-TMS: Test Cases/PreCondition/Login Internal-TMS
+
+2022-08-27 15:09:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-27 15:09:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-08-27 15:09:41 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-08-27 15:09:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-27 15:09:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-27 15:09:42 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 15:09:51 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 15:09:51 - [TEST_STEP][PASSED] - setText(findTestObject("Login Internal TMS/Page_/Login_inputEmail"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 15:09:52 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 15:09:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Internal TMS/Page_/Login_inputPassword"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 15:09:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 15:09:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 15:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 15:09:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 15:09:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-27 15:09:52 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-27 15:09:52 - [TEST_STEP][PASSED] - click(findTestObject("Search List SP/Page_/Page_/span_User Management")): Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 15:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 15:09:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 15:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 15:09:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 15:09:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Edit-Valid Param/Search ID"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 15:09:54 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Edit-Valid Param/Search ID: Test Cases/PreCondition/Edit-Valid Param/Search ID
+
+2022-08-27 15:09:54 - [TEST_STEP][PASSED] - setText(findTestObject("Search List SP/Page_/Field Search"), validSPId): Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 15:09:55 - [MESSAGE][PASSED] - Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 15:09:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 15:10:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 15:10:00 - [TEST_STEP][PASSED] - click(findTestObject("Get Detail SP/Page_/span_arrow_detailSP")): Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 15:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 15:10:00 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-08-27 15:10:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-08-27 15:10:10 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/ButtonEdit")): Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 15:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 15:10:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 15:10:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 15:10:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 15:10:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/addSP_input Email"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:10:15 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:10:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/addSP_input Email"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:10:15 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:10:15 - [TEST_STEP][PASSED] - setText(findTestObject("Add SP with valid data/Page_/addSP_input Email"), Cemail): Text 'email' is set on object 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:10:16 - [MESSAGE][PASSED] - Text 'email' is set on object 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:10:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Edit-Valid Param/Validasi"), ["Cekpostcode":"", "valuePostcode":"", "valueAddress":"", "PostCode":"20118", "Address":"SUMUT, Medan"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Validasi' successfully
+
+2022-08-27 15:10:16 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Edit-Valid Param/Validasi: Test Cases/PreCondition/Edit-Valid Param/Validasi
+
+2022-08-27 15:10:16 - [TEST_STEP][PASSED] - valuePostcode = getText(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode")): Text of object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode' is: ''
+
+2022-08-27 15:10:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode' is: ''
+
+2022-08-27 15:10:16 - [TEST_STEP][PASSED] - valueAddress = getText(findTestObject("Add SP with valid data/Page_/input_Address")): Text of object 'Object Repository/Add SP with valid data/Page_/input_Address' is: ''
+
+2022-08-27 15:10:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add SP with valid data/Page_/input_Address' is: ''
+
+2022-08-27 15:10:16 - [TEST_STEP][PASSED] - if (valuePostcode == ""): Text '20118' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 15:10:16 - [TEST_STEP][PASSED] - setText(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), PostCode): Text '20118' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 15:10:16 - [MESSAGE][PASSED] - Text '20118' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 15:10:16 - [TEST_STEP][PASSED] - if (valueAddress == ""): Text 'SUMUT, Medan' is set on object 'Object Repository/Add SP with valid data/Page_/input_Address'
+
+2022-08-27 15:10:16 - [TEST_STEP][PASSED] - setText(findTestObject("Add SP with valid data/Page_/input_Address"), Address): Text 'SUMUT, Medan' is set on object 'Object Repository/Add SP with valid data/Page_/input_Address'
+
+2022-08-27 15:10:17 - [MESSAGE][PASSED] - Text 'SUMUT, Medan' is set on object 'Object Repository/Add SP with valid data/Page_/input_Address'
+
+2022-08-27 15:10:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 15:10:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 15:10:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Validasi' successfully
+
+2022-08-27 15:10:22 - [TEST_STEP][PASSED] - scrollToPosition(10, 10): Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 15:10:22 - [MESSAGE][PASSED] - Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 15:10:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-27 15:10:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-27 15:10:25 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/Button_SaveChanges")): Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 15:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 15:10:25 - [TEST_STEP][PASSED] - valueEmail = getText(findTestObject("Add SP with valid data/Page_/addSP_input Email")): Text of object 'Object Repository/Add SP with valid data/Page_/addSP_input Email' is: ''
+
+2022-08-27 15:10:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add SP with valid data/Page_/addSP_input Email' is: ''
+
+2022-08-27 15:10:25 - [TEST_STEP][FAILED] - if (valueEmail == ""): Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at 2_Edit Company Email_Inv.run(2_Edit Company Email_Inv:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661587692955.run(TempTestSuite1661587692955.groovy:36)
+)
+
+2022-08-27 15:10:25 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Validation_With Empty String/Page_/EmptyString_C_Email"), "Company email must be filled"): Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at 2_Edit Company Email_Inv.run(2_Edit Company Email_Inv:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661587692955.run(TempTestSuite1661587692955.groovy:36)
+)
+
+2022-08-27 15:10:25 - [MESSAGE][FAILED] - Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at 2_Edit Company Email_Inv.run(2_Edit Company Email_Inv:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661587692955.run(TempTestSuite1661587692955.groovy:36)
+)
+[[ATTACHMENT|D:\\QA\\Automation Testing\\KATALON\\TMS-Internal Automation\\TMS\\Reports\\20220827_150812\\Integrate Internal Edit SP with Invalid Data\\Edit Company Email With Invalid Data\\20220827_150812\\1661587825556.png]]]]></system-out>
+         <system-err><![CDATA[2022-08-27 15:09:40 - [TEST_CASE][FAILED] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at 2_Edit Company Email_Inv.run(2_Edit Company Email_Inv:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661587692955.run(TempTestSuite1661587692955.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at 2_Edit Company Email_Inv.run(2_Edit Company Email_Inv:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661587692955.run(TempTestSuite1661587692955.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched.
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv" time="56.026" classname="Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv" status="PASSED">
+         <system-out><![CDATA[2022-08-27 15:10:25 - [TEST_CASE][PASSED] - Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv
+
+2022-08-27 15:10:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/SP"), ["validData":""], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 15:10:25 - [TEST_CASE][PASSED] - Test Cases/PreCondition/SP: Test Cases/PreCondition/SP
+
+2022-08-27 15:10:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Login Internal-TMS"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 15:10:25 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Login Internal-TMS: Test Cases/PreCondition/Login Internal-TMS
+
+2022-08-27 15:10:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-08-27 15:10:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-08-27 15:10:26 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-08-27 15:10:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-27 15:10:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-08-27 15:10:30 - [TEST_STEP][PASSED] - navigateToUrl("https://console-dev.hzn.one/tms"): Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 15:10:49 - [MESSAGE][PASSED] - Navigate to 'https://console-dev.hzn.one/tms' successfully
+
+2022-08-27 15:10:49 - [TEST_STEP][PASSED] - setText(findTestObject("Login Internal TMS/Page_/Login_inputEmail"), "admin@hzn.one"): Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 15:10:49 - [MESSAGE][PASSED] - Text 'admin@hzn.one' is set on object 'Object Repository/Login Internal TMS/Page_/Login_inputEmail'
+
+2022-08-27 15:10:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Internal TMS/Page_/Login_inputPassword"), "MnsJkEeAVpEG2LE9uYr7zQ=="): Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 15:10:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Internal TMS/Page_/Login_inputPassword'
+
+2022-08-27 15:10:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Internal TMS/Page_/button_Login")): Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 15:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Internal TMS/Page_/button_Login' is clicked on
+
+2022-08-27 15:10:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Login Internal-TMS' successfully
+
+2022-08-27 15:10:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-08-27 15:10:50 - [MESSAGE][PASSED] - Current window maximized
+
+2022-08-27 15:10:50 - [TEST_STEP][PASSED] - click(findTestObject("Search List SP/Page_/Page_/span_User Management")): Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 15:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Page_/span_User Management' is clicked on
+
+2022-08-27 15:10:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search List SP/Page_/Service Provider")): Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 15:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Search List SP/Page_/Service Provider' is clicked on
+
+2022-08-27 15:10:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/SP' successfully
+
+2022-08-27 15:10:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Edit-Valid Param/Search ID"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 15:10:51 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Edit-Valid Param/Search ID: Test Cases/PreCondition/Edit-Valid Param/Search ID
+
+2022-08-27 15:10:51 - [TEST_STEP][PASSED] - setText(findTestObject("Search List SP/Page_/Field Search"), validSPId): Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 15:10:51 - [MESSAGE][PASSED] - Text 'IDN0103' is set on object 'Object Repository/Search List SP/Page_/Field Search'
+
+2022-08-27 15:10:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 15:10:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 15:10:56 - [TEST_STEP][PASSED] - click(findTestObject("Get Detail SP/Page_/span_arrow_detailSP")): Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 15:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Get Detail SP/Page_/span_arrow_detailSP' is clicked on
+
+2022-08-27 15:10:57 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-08-27 15:11:07 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-08-27 15:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/ButtonEdit")): Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 15:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/ButtonEdit' is clicked on
+
+2022-08-27 15:11:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 15:11:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 15:11:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Search ID' successfully
+
+2022-08-27 15:11:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/addSP_input Email"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:11:12 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:11:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Add SP with valid data/Page_/addSP_input Email"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:11:12 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:11:12 - [TEST_STEP][PASSED] - setText(findTestObject("Add SP with valid data/Page_/addSP_input Email"), Cemail): Text '' is set on object 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:11:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Add SP with valid data/Page_/addSP_input Email'
+
+2022-08-27 15:11:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PreCondition/Edit-Valid Param/Validasi"), ["Cekpostcode":"", "valuePostcode":"", "valueAddress":"", "PostCode":"20118", "Address":"SUMUT, Medan"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Validasi' successfully
+
+2022-08-27 15:11:12 - [TEST_CASE][PASSED] - Test Cases/PreCondition/Edit-Valid Param/Validasi: Test Cases/PreCondition/Edit-Valid Param/Validasi
+
+2022-08-27 15:11:12 - [TEST_STEP][PASSED] - valuePostcode = getText(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode")): Text of object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode' is: ''
+
+2022-08-27 15:11:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode' is: ''
+
+2022-08-27 15:11:12 - [TEST_STEP][PASSED] - valueAddress = getText(findTestObject("Add SP with valid data/Page_/input_Address")): Text of object 'Object Repository/Add SP with valid data/Page_/input_Address' is: ''
+
+2022-08-27 15:11:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add SP with valid data/Page_/input_Address' is: ''
+
+2022-08-27 15:11:12 - [TEST_STEP][PASSED] - if (valuePostcode == ""): Text '20118' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 15:11:12 - [TEST_STEP][PASSED] - setText(findTestObject("Add SP with valid data/Page_/AddSP_inputPostalcode"), PostCode): Text '20118' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 15:11:13 - [MESSAGE][PASSED] - Text '20118' is set on object 'Object Repository/Add SP with valid data/Page_/AddSP_inputPostalcode'
+
+2022-08-27 15:11:13 - [TEST_STEP][PASSED] - if (valueAddress == ""): Text 'SUMUT, Medan' is set on object 'Object Repository/Add SP with valid data/Page_/input_Address'
+
+2022-08-27 15:11:13 - [TEST_STEP][PASSED] - setText(findTestObject("Add SP with valid data/Page_/input_Address"), Address): Text 'SUMUT, Medan' is set on object 'Object Repository/Add SP with valid data/Page_/input_Address'
+
+2022-08-27 15:11:13 - [MESSAGE][PASSED] - Text 'SUMUT, Medan' is set on object 'Object Repository/Add SP with valid data/Page_/input_Address'
+
+2022-08-27 15:11:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-08-27 15:11:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-08-27 15:11:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PreCondition/Edit-Valid Param/Validasi' successfully
+
+2022-08-27 15:11:18 - [TEST_STEP][PASSED] - scrollToPosition(10, 10): Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 15:11:18 - [MESSAGE][PASSED] - Browser is scrolled to position x = 10, y = 10
+
+2022-08-27 15:11:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-08-27 15:11:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-08-27 15:11:21 - [TEST_STEP][PASSED] - click(findTestObject("Edit SP/Button_SaveChanges")): Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 15:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit SP/Button_SaveChanges' is clicked on
+
+2022-08-27 15:11:21 - [TEST_STEP][PASSED] - valueEmail = getText(findTestObject("Add SP with valid data/Page_/addSP_input Email")): Text of object 'Object Repository/Add SP with valid data/Page_/addSP_input Email' is: ''
+
+2022-08-27 15:11:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Add SP with valid data/Page_/addSP_input Email' is: ''
+
+2022-08-27 15:11:21 - [TEST_STEP][PASSED] - if (valueEmail == ""): Actual text and expected text of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are matched.
+
+2022-08-27 15:11:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Validation_With Empty String/Page_/EmptyString_C_Email"), "Company email must be filled"): Actual text and expected text of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are matched.
+
+2022-08-27 15:11:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-27 15:08:41 - [TEST_SUITE][FAILED] - Edit Company Email With Invalid Data: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at 2_Edit Company Email_Inv.run(2_Edit Company Email_Inv:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661587692955.run(TempTestSuite1661587692955.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at 2_Edit Company Email_Inv.run(2_Edit Company Email_Inv:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661587692955.run(TempTestSuite1661587692955.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched.
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2022-08-27 15:08:41 - [TEST_SUITE][FAILED] - Edit Company Email With Invalid Data: Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/2_Edit Company Email_Inv FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at 2_Edit Company Email_Inv.run(2_Edit Company Email_Inv:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661587692955.run(TempTestSuite1661587692955.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at 2_Edit Company Email_Inv.run(2_Edit Company Email_Inv:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1661587692955.run(TempTestSuite1661587692955.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Email doesn't valid' and expected text 'Company email must be filled' of test object 'Object Repository/Validation_With Empty String/Page_/EmptyString_C_Email' are NOT matched.
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>

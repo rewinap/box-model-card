@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Get List SP,Chrome 103.0.5060.134,,,2022-07-26 21:12:27,2022-07-26 21:15:08,2m - 40.848s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Get List Customer with Invalid filter Search All,Chrome 103.0.5060.134,,,2022-07-26 21:12:27,2022-07-26 21:13:41,1m - 13.959s,FAILED
+"callTestCase(findTestCase(""Service Provider -Internal TMS/PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-26 21:12:28,2022-07-26 21:13:41,1m - 13.217s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Get List Customer with Invalid filter Search All,Chrome 103.0.5060.134,,,2022-07-26 21:13:41,2022-07-26 21:13:56,14.665s,FAILED
+"callTestCase(findTestCase(""Service Provider -Internal TMS/PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-26 21:13:41,2022-07-26 21:13:56,14.639s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Get List Customer with Invalid filter Search All,Chrome 103.0.5060.134,,,2022-07-26 21:13:56,2022-07-26 21:14:24,27.555s,FAILED
+"callTestCase(findTestCase(""Service Provider -Internal TMS/PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-26 21:13:56,2022-07-26 21:14:24,27.529s,FAILED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Get List Customer with Invalid filter Search All,Chrome 103.0.5060.134,,,2022-07-26 21:14:24,2022-07-26 21:15:08,43.877s,FAILED
+"callTestCase(findTestCase(""Service Provider -Internal TMS/PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-26 21:14:24,2022-07-26 21:15:08,43.850s,FAILED

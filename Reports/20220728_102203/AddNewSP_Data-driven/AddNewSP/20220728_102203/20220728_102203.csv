@@ -1,0 +1,110 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AddNewSP,Chrome 103.0.5060.134,,,2022-07-28 10:22:38,2022-07-28 10:24:39,2m - 1.086s,PASSED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Add New Service Provider/Add New SP with valid data,Chrome 103.0.5060.134,,,2022-07-28 10:22:38,2022-07-28 10:23:11,32.524s,PASSED
+"callTestCase(findTestCase(""Service Provider -Internal TMS/PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 10:22:39,2022-07-28 10:22:52,12.923s,PASSED
+"click(findTestObject(""Add SP with valid data/Page_/FirstButton_addSP""))",Chrome 103.0.5060.134,,,2022-07-28 10:22:52,2022-07-28 10:22:53,1.346s,PASSED
+"setText(findTestObject(""Add SP with valid data/Page_/AddSP_Input company name""), companyNameSP)",Chrome 103.0.5060.134,,,2022-07-28 10:22:53,2022-07-28 10:22:54,1.176s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/addSP_input Email""), companyEmailSP)",Chrome 103.0.5060.134,,,2022-07-28 10:22:54,2022-07-28 10:22:55,0.791s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_companyPhone""), companyPhoneSP)",Chrome 103.0.5060.134,,,2022-07-28 10:22:55,2022-07-28 10:22:56,0.736s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/choose country""))",Chrome 103.0.5060.134,,,2022-07-28 10:22:56,2022-07-28 10:22:57,0.706s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/li_Indonesia""))",Chrome 103.0.5060.134,,,2022-07-28 10:22:57,2022-07-28 10:22:57,0.699s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/choose province""))",Chrome 103.0.5060.134,,,2022-07-28 10:22:57,2022-07-28 10:22:58,0.962s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/li_SUMATERA UTARA""))",Chrome 103.0.5060.134,,,2022-07-28 10:22:58,2022-07-28 10:22:59,0.623s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/choose city""))",Chrome 103.0.5060.134,,,2022-07-28 10:22:59,2022-07-28 10:23:00,1.041s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/li_MEDAN""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:00,2022-07-28 10:23:01,0.594s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/Add SP_input_SIUP_businessLicense""), siupBusinessLicenseSP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:01,2022-07-28 10:23:02,1.216s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_input_NPWP_taxId""), NPWP_SP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:02,2022-07-28 10:23:02,0.738s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/span_PKP""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:02,2022-07-28 10:23:03,0.435s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/input_Type Of Service_PrivateSwitchBase-inp_a246e6""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:03,2022-07-28 10:23:03,0.483s,PASSED
+"uploadFile(findTestObject(""Add SP with valid data/Page_/inputPhoto""), lokasiFIle)",Chrome 103.0.5060.134,,,2022-07-28 10:23:03,2022-07-28 10:23:04,0.500s,PASSED
+"click(findTestObject(""Add SP with valid data/Page_/div_Contact Personarrow_drop_down""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:04,2022-07-28 10:23:04,0.591s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_CP_input name""), NamaCP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:04,2022-07-28 10:23:05,0.753s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSp_CP_input Email""), EmailCP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:05,2022-07-28 10:23:06,0.737s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_CP_input_Phone Number""), PhoneNumberCP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:06,2022-07-28 10:23:07,0.718s,PASSED
+"click(findTestObject(""Add SP with valid data/Page_/div_Company dropdown password""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:07,2022-07-28 10:23:07,0.409s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_input_Password""), passwordSP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:07,2022-07-28 10:23:08,0.493s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_input_Confirmation Password""), confirmationPasswordSP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:08,2022-07-28 10:23:08,0.519s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/last button_add SP""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:08,2022-07-28 10:23:09,0.529s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Add SP with valid data/Page_/main_addAdd Service ProvidersearchCityCityS_3f5b59""), 0)",Chrome 103.0.5060.134,,,2022-07-28 10:23:09,2022-07-28 10:23:11,2.300s,PASSED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Add New Service Provider/Add New SP with valid data,Chrome 103.0.5060.134,,,2022-07-28 10:23:11,2022-07-28 10:23:40,29.433s,PASSED
+"callTestCase(findTestCase(""Service Provider -Internal TMS/PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 10:23:11,2022-07-28 10:23:22,10.692s,PASSED
+"click(findTestObject(""Add SP with valid data/Page_/FirstButton_addSP""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:22,2022-07-28 10:23:23,1.365s,PASSED
+"setText(findTestObject(""Add SP with valid data/Page_/AddSP_Input company name""), companyNameSP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:23,2022-07-28 10:23:24,1.205s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/addSP_input Email""), companyEmailSP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:24,2022-07-28 10:23:25,0.787s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_companyPhone""), companyPhoneSP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:25,2022-07-28 10:23:26,0.758s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/choose country""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:26,2022-07-28 10:23:26,0.505s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/li_Indonesia""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:26,2022-07-28 10:23:27,0.762s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/choose province""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:27,2022-07-28 10:23:28,0.904s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/li_SUMATERA UTARA""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:28,2022-07-28 10:23:29,0.556s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/choose city""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:29,2022-07-28 10:23:30,0.981s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/li_MEDAN""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:30,2022-07-28 10:23:30,0.643s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/Add SP_input_SIUP_businessLicense""), siupBusinessLicenseSP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:30,2022-07-28 10:23:31,1.256s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_input_NPWP_taxId""), NPWP_SP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:31,2022-07-28 10:23:32,0.768s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/span_PKP""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:32,2022-07-28 10:23:33,0.442s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/input_Type Of Service_PrivateSwitchBase-inp_a246e6""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:33,2022-07-28 10:23:33,0.457s,PASSED
+"uploadFile(findTestObject(""Add SP with valid data/Page_/inputPhoto""), lokasiFIle)",Chrome 103.0.5060.134,,,2022-07-28 10:23:33,2022-07-28 10:23:34,0.616s,PASSED
+"click(findTestObject(""Add SP with valid data/Page_/div_Contact Personarrow_drop_down""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:34,2022-07-28 10:23:34,0.479s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_CP_input name""), NamaCP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:34,2022-07-28 10:23:35,0.756s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSp_CP_input Email""), EmailCP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:35,2022-07-28 10:23:36,0.735s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_CP_input_Phone Number""), PhoneNumberCP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:36,2022-07-28 10:23:36,0.728s,PASSED
+"click(findTestObject(""Add SP with valid data/Page_/div_Company dropdown password""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:36,2022-07-28 10:23:37,0.385s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_input_Password""), passwordSP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:37,2022-07-28 10:23:37,0.423s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_input_Confirmation Password""), confirmationPasswordSP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:37,2022-07-28 10:23:38,0.436s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/last button_add SP""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:38,2022-07-28 10:23:38,0.528s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Add SP with valid data/Page_/main_addAdd Service ProvidersearchCityCityS_3f5b59""), 0)",Chrome 103.0.5060.134,,,2022-07-28 10:23:38,2022-07-28 10:23:40,2.249s,PASSED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Add New Service Provider/Add New SP with valid data,Chrome 103.0.5060.134,,,2022-07-28 10:23:41,2022-07-28 10:24:09,28.901s,PASSED
+"callTestCase(findTestCase(""Service Provider -Internal TMS/PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 10:23:41,2022-07-28 10:23:51,10.185s,PASSED
+"click(findTestObject(""Add SP with valid data/Page_/FirstButton_addSP""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:51,2022-07-28 10:23:52,1.324s,PASSED
+"setText(findTestObject(""Add SP with valid data/Page_/AddSP_Input company name""), companyNameSP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:52,2022-07-28 10:23:53,1.162s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/addSP_input Email""), companyEmailSP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:53,2022-07-28 10:23:54,0.794s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_companyPhone""), companyPhoneSP)",Chrome 103.0.5060.134,,,2022-07-28 10:23:54,2022-07-28 10:23:55,0.746s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/choose country""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:55,2022-07-28 10:23:55,0.660s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/li_Indonesia""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:55,2022-07-28 10:23:56,0.718s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/choose province""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:56,2022-07-28 10:23:57,0.976s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/li_SUMATERA UTARA""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:57,2022-07-28 10:23:58,0.562s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/choose city""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:58,2022-07-28 10:23:59,1.191s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/li_MEDAN""))",Chrome 103.0.5060.134,,,2022-07-28 10:23:59,2022-07-28 10:24:00,0.653s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/Add SP_input_SIUP_businessLicense""), siupBusinessLicenseSP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:00,2022-07-28 10:24:01,1.285s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_input_NPWP_taxId""), NPWP_SP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:01,2022-07-28 10:24:02,0.709s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/span_PKP""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:02,2022-07-28 10:24:02,0.429s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/input_Type Of Service_PrivateSwitchBase-inp_a246e6""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:02,2022-07-28 10:24:02,0.415s,PASSED
+"uploadFile(findTestObject(""Add SP with valid data/Page_/inputPhoto""), lokasiFIle)",Chrome 103.0.5060.134,,,2022-07-28 10:24:02,2022-07-28 10:24:03,0.518s,PASSED
+"click(findTestObject(""Add SP with valid data/Page_/div_Contact Personarrow_drop_down""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:03,2022-07-28 10:24:03,0.485s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_CP_input name""), NamaCP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:03,2022-07-28 10:24:04,0.682s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSp_CP_input Email""), EmailCP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:04,2022-07-28 10:24:05,0.768s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_CP_input_Phone Number""), PhoneNumberCP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:05,2022-07-28 10:24:06,0.721s,PASSED
+"click(findTestObject(""Add SP with valid data/Page_/div_Company dropdown password""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:06,2022-07-28 10:24:06,0.381s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_input_Password""), passwordSP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:06,2022-07-28 10:24:06,0.424s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_input_Confirmation Password""), confirmationPasswordSP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:06,2022-07-28 10:24:07,0.452s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/last button_add SP""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:07,2022-07-28 10:24:07,0.507s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Add SP with valid data/Page_/main_addAdd Service ProvidersearchCityCityS_3f5b59""), 0)",Chrome 103.0.5060.134,,,2022-07-28 10:24:07,2022-07-28 10:24:09,2.134s,PASSED
+,,,,,,,
+Test Cases/Service Provider -Internal TMS/Integrate Internal - Add New Service Provider/Add New SP with valid data,Chrome 103.0.5060.134,,,2022-07-28 10:24:10,2022-07-28 10:24:39,29.165s,PASSED
+"callTestCase(findTestCase(""Service Provider -Internal TMS/PreCondition/SP""), [""validData"":""""], STOP_ON_FAILURE)",Chrome 103.0.5060.134,,,2022-07-28 10:24:10,2022-07-28 10:24:20,10.710s,PASSED
+"click(findTestObject(""Add SP with valid data/Page_/FirstButton_addSP""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:20,2022-07-28 10:24:22,1.389s,PASSED
+"setText(findTestObject(""Add SP with valid data/Page_/AddSP_Input company name""), companyNameSP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:22,2022-07-28 10:24:23,1.289s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/addSP_input Email""), companyEmailSP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:23,2022-07-28 10:24:24,0.722s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_companyPhone""), companyPhoneSP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:24,2022-07-28 10:24:24,0.707s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/choose country""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:24,2022-07-28 10:24:25,0.531s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/li_Indonesia""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:25,2022-07-28 10:24:26,0.700s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/choose province""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:26,2022-07-28 10:24:27,0.966s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/li_SUMATERA UTARA""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:27,2022-07-28 10:24:27,0.689s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/choose city""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:27,2022-07-28 10:24:28,0.939s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/li_MEDAN""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:28,2022-07-28 10:24:29,0.559s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/Add SP_input_SIUP_businessLicense""), siupBusinessLicenseSP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:29,2022-07-28 10:24:30,1.311s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_input_NPWP_taxId""), NPWP_SP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:30,2022-07-28 10:24:31,0.694s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/span_PKP""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:31,2022-07-28 10:24:31,0.411s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/input_Type Of Service_PrivateSwitchBase-inp_a246e6""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:31,2022-07-28 10:24:32,0.424s,PASSED
+"uploadFile(findTestObject(""Add SP with valid data/Page_/inputPhoto""), lokasiFIle)",Chrome 103.0.5060.134,,,2022-07-28 10:24:32,2022-07-28 10:24:32,0.511s,PASSED
+"click(findTestObject(""Add SP with valid data/Page_/div_Contact Personarrow_drop_down""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:32,2022-07-28 10:24:33,0.476s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_CP_input name""), NamaCP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:33,2022-07-28 10:24:33,0.737s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSp_CP_input Email""), EmailCP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:33,2022-07-28 10:24:34,0.725s,PASSED
+"setText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_CP_input_Phone Number""), PhoneNumberCP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:34,2022-07-28 10:24:35,0.731s,PASSED
+"click(findTestObject(""Add SP with valid data/Page_/div_Company dropdown password""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:35,2022-07-28 10:24:35,0.362s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_input_Password""), passwordSP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:35,2022-07-28 10:24:36,0.451s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Add SP with valid data/Page_/AddSP_input_Confirmation Password""), confirmationPasswordSP)",Chrome 103.0.5060.134,,,2022-07-28 10:24:36,2022-07-28 10:24:36,0.450s,PASSED
+"click(findTestObject(""Object Repository/Add SP with valid data/Page_/last button_add SP""))",Chrome 103.0.5060.134,,,2022-07-28 10:24:36,2022-07-28 10:24:37,0.504s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Add SP with valid data/Page_/main_addAdd Service ProvidersearchCityCityS_3f5b59""), 0)",Chrome 103.0.5060.134,,,2022-07-28 10:24:37,2022-07-28 10:24:39,2.165s,PASSED
