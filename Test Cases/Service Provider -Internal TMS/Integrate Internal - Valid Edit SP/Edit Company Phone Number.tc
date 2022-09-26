@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Company Phone Number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>037fe61e-c71d-4ddd-8ef1-902d86557689</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>517bbae0-7cb9-4199-9ee2-c8d470a52c9f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'08737263232'</defaultValue>
+      <description></description>
+      <id>517bbae0-7cb9-4199-9ee2-c8d470a52c9f</id>
+      <masked>false</masked>
+      <name>validPhoneNumber</name>
+   </variable>
+</TestCaseEntity>

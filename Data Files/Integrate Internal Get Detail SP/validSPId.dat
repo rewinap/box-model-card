@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>validSPId</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>8f4d3557-e159-4aba-bf0e-4fbcab07a538</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>IDN0104</data>
+   <data>IDN0099</data>
+   <data>IDN0093</data>
+   <data>IDN0080</data>
+   <data>IDN0061</data>
+   <data>IDN0049</data>
+   <data>IDN0040</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>validSPId</name>
+      <size>7</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

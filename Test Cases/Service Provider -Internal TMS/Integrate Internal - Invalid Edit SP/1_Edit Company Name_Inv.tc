@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1_Edit Company Name_Inv</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>122db648-30d4-4553-9f9c-d144ae9c5003</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>341b3c11-d27e-4d78-9dea-77208c6f4585</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>341b3c11-d27e-4d78-9dea-77208c6f4585</id>
+      <masked>false</masked>
+      <name>Cname</name>
+   </variable>
+</TestCaseEntity>

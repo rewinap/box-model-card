@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ul_Choose provinceACEHBALIBANTENBENGKULUDI _ea7381</name>
+   <tag></tag>
+   <elementGuidId>217d89de-2678-45be-9398-50861cf504a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.MuiList-root.MuiList-padding.MuiMenu-list.css-r8u8y9</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='menu-']/div[3]/ul</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ul</value>
+      <webElementGuid>98d4e7ad-a98f-4c23-82fb-03cfef0f2e37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiList-root MuiList-padding MuiMenu-list css-r8u8y9</value>
+      <webElementGuid>54232e0c-283a-41c6-a0c3-e3849f3b79a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>listbox</value>
+      <webElementGuid>8bdb2d5f-7657-41a2-b7aa-fee62206158c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>4d989451-7888-418b-86bc-997291be658d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>mui-10-label</value>
+      <webElementGuid>c332bd6c-784d-4453-b163-697f45c58107</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Choose provinceACEHBALIBANTENBENGKULUDI YOGYAKARTADKI JAKARTAGORONTALOJAMBIJAWA BARATJAWA TENGAHJAWA TIMURKALIMANTAN BARATKALIMANTAN SELATANKALIMANTAN TENGAHKALIMANTAN TIMURKALIMANTAN UTARAKEPULAUAN BANGKA BELITUNGKEPULAUAN RIAULAMPUNGMALUKUMALUKU UTARANUSA TENGGARA BARATNUSA TENGGARA TIMURPAPUAPAPUA BARATRIAUSULAWESI BARATSULAWESI SELATANSULAWESI TENGAHSULAWESI TENGGARASULAWESI UTARASUMATERA BARATSUMATERA SELATANSUMATERA UTARA</value>
+      <webElementGuid>cb84a8f3-ee9a-47a8-aae1-a3f5bf033d21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-&quot;)/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiMenu-paper MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPopover-paper css-1xo49sd&quot;]/ul[@class=&quot;MuiList-root MuiList-padding MuiMenu-list css-r8u8y9&quot;]</value>
+      <webElementGuid>fc84e9b2-aa00-4038-978c-1f6b6f377af2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='menu-']/div[3]/ul</value>
+      <webElementGuid>03690ff6-44e8-4655-bc5c-56408716b107</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Service Provider'])[1]/following::ul[1]</value>
+      <webElementGuid>678d43fa-72b9-4494-9a89-fbbea311d753</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::ul[1]</value>
+      <webElementGuid>258ff01d-5cbb-47f9-ae7e-970a023d625f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/ul</value>
+      <webElementGuid>09787d1e-4824-461e-84aa-a7a24be55c83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ul[(text() = 'Choose provinceACEHBALIBANTENBENGKULUDI YOGYAKARTADKI JAKARTAGORONTALOJAMBIJAWA BARATJAWA TENGAHJAWA TIMURKALIMANTAN BARATKALIMANTAN SELATANKALIMANTAN TENGAHKALIMANTAN TIMURKALIMANTAN UTARAKEPULAUAN BANGKA BELITUNGKEPULAUAN RIAULAMPUNGMALUKUMALUKU UTARANUSA TENGGARA BARATNUSA TENGGARA TIMURPAPUAPAPUA BARATRIAUSULAWESI BARATSULAWESI SELATANSULAWESI TENGAHSULAWESI TENGGARASULAWESI UTARASUMATERA BARATSUMATERA SELATANSUMATERA UTARA' or . = 'Choose provinceACEHBALIBANTENBENGKULUDI YOGYAKARTADKI JAKARTAGORONTALOJAMBIJAWA BARATJAWA TENGAHJAWA TIMURKALIMANTAN BARATKALIMANTAN SELATANKALIMANTAN TENGAHKALIMANTAN TIMURKALIMANTAN UTARAKEPULAUAN BANGKA BELITUNGKEPULAUAN RIAULAMPUNGMALUKUMALUKU UTARANUSA TENGGARA BARATNUSA TENGGARA TIMURPAPUAPAPUA BARATRIAUSULAWESI BARATSULAWESI SELATANSULAWESI TENGAHSULAWESI TENGGARASULAWESI UTARASUMATERA BARATSUMATERA SELATANSUMATERA UTARA')]</value>
+      <webElementGuid>43b8aa50-96bc-40cf-9a4f-f0ee9911a126</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

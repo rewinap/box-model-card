@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EmptyString_C_ type of ser</name>
+   <tag></tag>
+   <elementGuidId>622c98f4-6b75-4f07-be7d-51f4a4f907e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid=&quot;form-control-type-of-service&quot;]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>a66d0d02-f28c-437c-9c5a-5036ea820596</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormHelperText-root Mui-error MuiFormHelperText-sizeMedium MuiFormHelperText-contained Mui-required css-3wn5jn</value>
+      <webElementGuid>3a781e62-85e5-4e6d-8e16-e92b62d3ec39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>component-error-text</value>
+      <webElementGuid>632a4c61-a33f-4b43-95ba-757ef00dc976</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Company type of service must be filled.</value>
+      <webElementGuid>0aec5a62-e814-4c15-846a-b8df67f21277</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-4rrr9a&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container css-1cn3yto&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-8 css-1srxrdd&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiAccordion-root Mui-expanded css-ydt79c&quot;]/div[@class=&quot;MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-c4sutr&quot;]/div[@class=&quot;MuiCollapse-wrapper MuiCollapse-vertical css-hboir5&quot;]/div[@class=&quot;MuiCollapse-wrapperInner MuiCollapse-vertical css-8atqhb&quot;]/div[@class=&quot;MuiAccordion-region&quot;]/div[@class=&quot;MuiAccordionDetails-root css-ogwzx2&quot;]/div[@class=&quot;MuiBox-root css-3c4rk8&quot;]/div[@class=&quot;MuiBox-root css-15poin4&quot;]/div[@class=&quot;MuiFormControl-root css-136obn2&quot;]/p[@id=&quot;component-error-text&quot;]</value>
+      <webElementGuid>83e2f94f-f91c-4867-979e-c261ac026cce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//p[@id='component-error-text'])[2]</value>
+      <webElementGuid>d2cb4c85-8bd3-4f77-8199-bbf35783ac73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div[2]/div/div/div[2]/div/div/div/div/div/div[13]/div/p</value>
+      <webElementGuid>a4271286-9128-43dd-9ace-4eb4c1702685</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='minimum image size 100 x 100 (max. 200 Kb) extension file must be in .PNG'])[1]/preceding::p[1]</value>
+      <webElementGuid>cbc4df96-a18f-4d53-a6df-1841f86049c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Company type of service must be filled.']/parent::*</value>
+      <webElementGuid>93d93e9f-22cd-4d92-8bed-ecebdc403f7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[13]/div/p</value>
+      <webElementGuid>b9a6da09-8442-4cbc-9dee-fa851a5d3475</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'component-error-text' and (text() = 'Company type of service must be filled.' or . = 'Company type of service must be filled.')]</value>
+      <webElementGuid>f4646232-6028-4472-a51b-f7795779ca94</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

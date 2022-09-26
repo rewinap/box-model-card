@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Company Company Tax</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7dff33d8-50b4-45de-ad3a-8a3a84973759</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ac57086-ebe1-4516-a3a9-378100f8b1a4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'313213121214'</defaultValue>
+      <description></description>
+      <id>7ac57086-ebe1-4516-a3a9-378100f8b1a4</id>
+      <masked>false</masked>
+      <name>npwp</name>
+   </variable>
+</TestCaseEntity>

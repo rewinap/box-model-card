@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get List Driver With Invalid Filter Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>85d75eaa-a8e1-46ab-ab8c-cb640af0a045</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b50bd87b-6782-47c2-bd95-15403ed77df7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'asdjaksd'</defaultValue>
+      <description></description>
+      <id>b50bd87b-6782-47c2-bd95-15403ed77df7</id>
+      <masked>false</masked>
+      <name>invalidDriverData</name>
+   </variable>
+</TestCaseEntity>

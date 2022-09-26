@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get List Driver With Valid Data in Filter Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9bfb4df-e030-40a3-9e42-e40a54bbb3a5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eef6350c-9ac8-4202-87a5-308aae11740b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Driver 1'</defaultValue>
+      <description></description>
+      <id>eef6350c-9ac8-4202-87a5-308aae11740b</id>
+      <masked>false</masked>
+      <name>validDriverData</name>
+   </variable>
+</TestCaseEntity>

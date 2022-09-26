@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2_Edit Company Email_Inv</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07816fc0-c48b-4440-83b9-b3068763d250</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6b5ae57a-fb48-432f-b1f2-221a1f4f9437</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7f89b15-cac2-4780-9acf-2cbb96976689</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ccc'</defaultValue>
+      <description></description>
+      <id>6b5ae57a-fb48-432f-b1f2-221a1f4f9437</id>
+      <masked>false</masked>
+      <name>invEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d7f89b15-cac2-4780-9acf-2cbb96976689</id>
+      <masked>false</masked>
+      <name>valueEmail</name>
+   </variable>
+</TestCaseEntity>

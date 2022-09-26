@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>9_Edit CP Name_Inv</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c5af090-5244-458c-9d81-88181dfd4fbc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9b428d40-d1f7-4388-bd41-6ebcb3819d24</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SPTestingdiedit lagi5'</defaultValue>
+      <description></description>
+      <id>9b428d40-d1f7-4388-bd41-6ebcb3819d24</id>
+      <masked>false</masked>
+      <name>CPName</name>
+   </variable>
+</TestCaseEntity>

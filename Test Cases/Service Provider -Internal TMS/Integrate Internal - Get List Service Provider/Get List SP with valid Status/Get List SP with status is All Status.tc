@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get List SP with status is All Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52283a25-0597-4926-b7ee-efb0342f0d51</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c840505-a06a-4ab6-b6b8-f48677222c4d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ACTIVE'</defaultValue>
+      <description></description>
+      <id>8c840505-a06a-4ab6-b6b8-f48677222c4d</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>7_Edit Company Company Tax_Inv</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1327d090-2f2a-4f62-9bac-f53f301111b2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1167c283-f538-475a-9034-cd4718c2250f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'313213121214'</defaultValue>
+      <description></description>
+      <id>1167c283-f538-475a-9034-cd4718c2250f</id>
+      <masked>false</masked>
+      <name>npwp</name>
+   </variable>
+</TestCaseEntity>

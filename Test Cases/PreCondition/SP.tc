@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6dd287ad-6eaa-42dd-af5f-4315771b8d11</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7059f37b-ba5d-4c84-857e-ea62c82eda19</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7059f37b-ba5d-4c84-857e-ea62c82eda19</id>
+      <masked>false</masked>
+      <name>validData</name>
+   </variable>
+</TestCaseEntity>

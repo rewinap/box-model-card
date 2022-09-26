@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>validData_Add New Sp</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>9b9bdecd-f989-48d0-a7ac-73f87c678ef4</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>data1_TestingPT_Aut_SP11 emailtesaut_1%40gmail.com 0852324526311 74242738448211 313213121211 C%3A%5CUsers%5CUser%5CDownloads%5Clogo.png cptestAut11 cptestAut11%40gmail.com 082345321511 p4y%2By39Ir5NE7FNm0xUnJQ%3D%3D p4y%2By39Ir5NE7FNm0xUnJQ%3D%3D</data>
+   <data>data2_TestingPT_Aut_SP12 emailtesaut_2%40gmail.com 0852324526312 74242738448212 313213121212 C%3A%5CUsers%5CUser%5CDownloads%5Clogo.png cptestAut12 cptestAut12%40gmail.com 082345321512 p4y%2By39Ir5NE7FNm0xUnJQ%3D%3D p4y%2By39Ir5NE7FNm0xUnJQ%3D%3D</data>
+   <data>data3_TestingPT_Aut_SP13 emailtesaut_3%40gmail.com 085232452613 74242738448213 313213121213 C%3A%5CUsers%5CUser%5CDownloads%5Clogo.png cptestAut13 cptestAut13%40gmail.com 082345321513 p4y%2By39Ir5NE7FNm0xUnJQ%3D%3D p4y%2By39Ir5NE7FNm0xUnJQ%3D%3D</data>
+   <data>data4_TestingPT_Aut_SP14 emailtesaut_4%40gmail.com 085232452614 74242738448214 313213121214 C%3A%5CUsers%5CUser%5CDownloads%5Clogo.png cptestAut14 cptestAut14%40gmail.com 082345321514 p4y%2By39Ir5NE7FNm0xUnJQ%3D%3D p4y%2By39Ir5NE7FNm0xUnJQ%3D%3D</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>companyNameSP</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>companyEmailSP</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>companyPhoneSP</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>siupBusinessLicenseSP</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>NPWP_SP</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>lokasiFile</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>NamaCP</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>7</columnIndex>
+      <name>EmailCP</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
+      <name>PhoneNumberCP</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>9</columnIndex>
+      <name>passwordSP</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>10</columnIndex>
+      <name>confirmationPasswordSP</name>
+      <size>4</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

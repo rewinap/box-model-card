@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>keluar</name>
+   <tag></tag>
+   <elementGuidId>ef0f7445-7efb-40d2-a475-d7b80f7c9085</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@class, 'MuiBackdrop-root')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiBackdrop-root</value>
+      <webElementGuid>5ddaee67-cf09-4076-b5e3-8e55b5a36eaa</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

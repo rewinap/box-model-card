@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>ValdCity</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>3386f3d0-6360-4c93-bdeb-2d1d1505fd9b</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Jawa+Barat</data>
+   <data>Bogor+Kota</data>
+   <data>Ciamis</data>
+   <data>Jakarta+Selatan</data>
+   <data>Jakarta+Pusat</data>
+   <data>Aceh+Barat</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>validCity</name>
+      <size>6</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

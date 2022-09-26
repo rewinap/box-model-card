@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Detail SP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>024ef4c8-1eee-4139-948a-632406d67066</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5c524703-cce6-46f2-b741-c55b93fc662e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'IDN0106'</defaultValue>
+      <description></description>
+      <id>5c524703-cce6-46f2-b741-c55b93fc662e</id>
+      <masked>false</masked>
+      <name>validSPId</name>
+   </variable>
+</TestCaseEntity>

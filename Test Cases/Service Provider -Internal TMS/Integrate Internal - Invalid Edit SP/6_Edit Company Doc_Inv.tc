@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>6_Edit Company Doc_Inv</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64676824-3d8f-421a-8a5f-ce8befeee79f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>79311170-750e-4389-b654-e20f2e9dbba6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'74242738448214'</defaultValue>
+      <description></description>
+      <id>79311170-750e-4389-b654-e20f2e9dbba6</id>
+      <masked>false</masked>
+      <name>siub</name>
+   </variable>
+</TestCaseEntity>

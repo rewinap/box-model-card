@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Passwordvisibility_off</name>
+   <tag></tag>
+   <elementGuidId>4557cccc-7acf-47de-b34b-86fe8da3e0ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiFormControl-root.MuiFormControl-fullWidth.MuiTextField-root.css-1tmii2m</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/div/div/div[2]/form/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fdafc781-6e76-4764-8c96-c8421a881025</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1tmii2m</value>
+      <webElementGuid>c45efe40-de15-4561-9be9-1ccd97c097ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>input-login-email</value>
+      <webElementGuid>f99e5cf3-62ba-479f-8d5b-f49c02f0a519</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>8ac10192-831e-4914-97a6-4c69967aa425</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Password *​visibility_off</value>
+      <webElementGuid>9b7e0b2b-228a-41ee-9d9b-055deb453b62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;MuiGrid-root MuiGrid-container css-1ihe8x4&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-sm-6 css-yjm5xu&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-alznhl&quot;]/div[@class=&quot;MuiCardContent-root css-162ssw6&quot;]/form[1]/div[@class=&quot;MuiBox-root css-h4qm9t&quot;]/div[@class=&quot;MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1tmii2m&quot;]</value>
+      <webElementGuid>716905a6-1e7a-486d-8160-d809339a2f36</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div[2]/form/div/div[2]</value>
+      <webElementGuid>3552b1dc-2056-4d4c-92c5-65b3e98d8ffe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Horizon'])[1]/following::div[5]</value>
+      <webElementGuid>a3a3a6f2-a7a7-4d4f-b0ae-e9ce8b249d1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[2]</value>
+      <webElementGuid>84062d0c-20ce-4865-8a0c-5e67f00d1928</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Password *​visibility_off' or . = 'Password *​visibility_off')]</value>
+      <webElementGuid>aa04d370-9d55-425e-a509-3c4c09298cf6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
