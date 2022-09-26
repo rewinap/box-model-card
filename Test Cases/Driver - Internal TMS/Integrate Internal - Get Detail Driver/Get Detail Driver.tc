@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Detail Driver</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf95202a-d3ff-4dfd-9926-e07c6ae34e08</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aae5f0b6-7dec-4597-8e85-a47f64a673d0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'IDN0003-WKR011152'</defaultValue>
+      <description></description>
+      <id>aae5f0b6-7dec-4597-8e85-a47f64a673d0</id>
+      <masked>false</masked>
+      <name>validDriverID</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>3_Edit Company Phone Number_Inv</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d61c2830-49e8-4beb-96c2-d0bdd5efc1a3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1bf4eb80-7732-40f6-8416-a18084df1b55</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1bf4eb80-7732-40f6-8416-a18084df1b55</id>
+      <masked>false</masked>
+      <name>InvalidPhoneNumber</name>
+   </variable>
+</TestCaseEntity>

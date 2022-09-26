@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get List SP with status is Inactive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59e91b2b-fcba-4d22-86b7-9c8705a01b67</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fa24b768-aa08-4d12-93d0-e2717f38aa4b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ACTIVE'</defaultValue>
+      <description></description>
+      <id>fa24b768-aa08-4d12-93d0-e2717f38aa4b</id>
+      <masked>false</masked>
+      <name>status</name>
+   </variable>
+</TestCaseEntity>

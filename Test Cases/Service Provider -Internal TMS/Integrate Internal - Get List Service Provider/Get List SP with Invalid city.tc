@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get List SP with Invalid city</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8c415fee-c871-42d7-82a6-b04f0265e4b2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>99902654-70c0-4703-a136-789d88030878</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7e1073ca-2bb4-4409-82c6-329b8bc3bcfa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>98a4ad60-ed1f-457f-a2b3-973d4a3e015b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>99902654-70c0-4703-a136-789d88030878</id>
+      <masked>false</masked>
+      <name>validData</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ciamis'</defaultValue>
+      <description></description>
+      <id>7e1073ca-2bb4-4409-82c6-329b8bc3bcfa</id>
+      <masked>false</masked>
+      <name>validCity</name>
+   </variable>
+   <variable>
+      <defaultValue>'Medan'</defaultValue>
+      <description></description>
+      <id>98a4ad60-ed1f-457f-a2b3-973d4a3e015b</id>
+      <masked>false</masked>
+      <name>invalidCity</name>
+   </variable>
+</TestCaseEntity>

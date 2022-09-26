@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Company Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b92befd-6750-47fb-95c2-fe744f23f9c3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4591966d-c486-4a00-bdc5-6f69664032e5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SP Testingdiedit lagi2'</defaultValue>
+      <description></description>
+      <id>4591966d-c486-4a00-bdc5-6f69664032e5</id>
+      <masked>false</masked>
+      <name>Cname</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Get List SP</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>bab6c582-1609-4144-b6be-6d9d9ae15eda</testSuiteGuid>
+   <testCaseLink>
+      <guid>9ad1deb5-d18a-4733-9016-e1b3d2b5db43</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Service Provider -Internal TMS/Integrate Internal - Get List Service Provider/Get List SP with valid filter Search All</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>15c4d3a5-030c-4258-9aa2-ee114d0814a0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Search-Valid Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>15c4d3a5-030c-4258-9aa2-ee114d0814a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>validData</value>
+         <variableId>ed010019-2037-41a0-99f2-089fe1f71c96</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>87725fcf-868a-49ae-b28f-b99a8d4f4f06</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Service Provider -Internal TMS/Integrate Internal - Get List Service Provider/Get List SP with valid city</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e2ad7e07-a067-4ac2-b043-ef5b75d8b0d0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ValdCity</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e7edf384-9efc-41f2-9109-4ac1555d98f9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2ad7e07-a067-4ac2-b043-ef5b75d8b0d0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>validCity</value>
+         <variableId>6af50668-f0dc-481b-996f-a4c8b420e57a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bf4aa605-1a8f-4024-8d33-84d05c4f891b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Service Provider -Internal TMS/Integrate Internal - Get List Service Provider/Get List SP with Invalid city</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a6332dde-2f72-451a-9996-a40f199cf335</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Integrate Internal Get List Service Provider/invalidCity</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>99902654-70c0-4703-a136-789d88030878</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7e1073ca-2bb4-4409-82c6-329b8bc3bcfa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a6332dde-2f72-451a-9996-a40f199cf335</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>invalidCity</value>
+         <variableId>98a4ad60-ed1f-457f-a2b3-973d4a3e015b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3ae1af2b-1067-4884-a52f-d5f6574da342</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Service Provider -Internal TMS/Integrate Internal - Get List Service Provider/Get List SP with Invalid filter Search All</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>aee4da6d-19a3-435f-a64e-032e1e4f6140</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Integrate Internal Get List Service Provider/invalidSearchData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5c0ce846-4637-41cf-adf4-c8c4ddb201c1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>aee4da6d-19a3-435f-a64e-032e1e4f6140</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>invalidSearchData</value>
+         <variableId>12dac444-8bd8-4e16-9bd5-f3fd819d10f3</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit CP Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e034589-ba6b-4551-9f3e-32a837388a53</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d3d267fb-3729-4727-b8a0-b5784a8c4e32</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SPTestingdiedit lag@gmail.com'</defaultValue>
+      <description></description>
+      <id>d3d267fb-3729-4727-b8a0-b5784a8c4e32</id>
+      <masked>false</masked>
+      <name>CPemail</name>
+   </variable>
+</TestCaseEntity>

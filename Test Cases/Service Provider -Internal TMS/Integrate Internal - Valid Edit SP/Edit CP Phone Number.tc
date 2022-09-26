@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit CP Phone Number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7405eafb-58da-4d9e-90f4-3c481f8c8dbb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>71cfa785-e448-446d-957c-f211694a32cf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'08222635233'</defaultValue>
+      <description></description>
+      <id>71cfa785-e448-446d-957c-f211694a32cf</id>
+      <masked>false</masked>
+      <name>CPphoneNumber</name>
+   </variable>
+</TestCaseEntity>

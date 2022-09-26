@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a44095af-0103-44b1-8801-d131a2380da8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2cdca719-14fc-43b9-95d0-2e0ceb8599d3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'IDN0103'</defaultValue>
+      <description></description>
+      <id>2cdca719-14fc-43b9-95d0-2e0ceb8599d3</id>
+      <masked>false</masked>
+      <name>validSPId</name>
+   </variable>
+</TestCaseEntity>

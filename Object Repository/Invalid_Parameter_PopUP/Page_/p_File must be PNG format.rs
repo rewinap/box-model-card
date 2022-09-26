@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_File must be PNG format</name>
+   <tag></tag>
+   <elementGuidId>61625b99-1a1c-4f3b-9520-4459958c364e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//p[@id='component-error-text'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiFormControl-root.MuiFormControl-fullWidth.css-1b16hai > #component-error-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>67c95648-7625-4a0e-ae95-ce36d81e5f75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiFormHelperText-root Mui-error MuiFormHelperText-sizeMedium MuiFormHelperText-contained Mui-required css-3wn5jn</value>
+      <webElementGuid>c4927519-14d5-4101-b589-b0fe1bac6d10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>component-error-text</value>
+      <webElementGuid>978a6e39-fe87-4116-8fea-db142a3b1f14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>File must be PNG format</value>
+      <webElementGuid>169aef41-b8b9-49b0-9d84-6d3c0f74d5e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-4rrr9a&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container css-1cn3yto&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-8 css-1srxrdd&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiAccordion-root Mui-expanded css-ydt79c&quot;]/div[@class=&quot;MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-c4sutr&quot;]/div[@class=&quot;MuiCollapse-wrapper MuiCollapse-vertical css-hboir5&quot;]/div[@class=&quot;MuiCollapse-wrapperInner MuiCollapse-vertical css-8atqhb&quot;]/div[@class=&quot;MuiAccordion-region&quot;]/div[@class=&quot;MuiAccordionDetails-root css-ogwzx2&quot;]/div[@class=&quot;MuiBox-root css-3c4rk8&quot;]/div[@class=&quot;MuiFormControl-root MuiFormControl-fullWidth css-1b16hai&quot;]/p[@id=&quot;component-error-text&quot;]</value>
+      <webElementGuid>266bf20c-5fd0-4810-ac2a-ffd1b7ef8279</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//p[@id='component-error-text'])[3]</value>
+      <webElementGuid>bff2b3fa-dcb4-4649-ad14-eb25964eb0ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div[2]/div/div/div[2]/div/div/div/div/div/div[14]/p</value>
+      <webElementGuid>277f7a14-9c3d-4203-a82c-7aee0fda3980</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Company Logo'])[1]/following::p[1]</value>
+      <webElementGuid>d32c0e23-b816-4eaa-978d-fe29a8fb4368</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='minimum image size 100 x 100 (max. 200 Kb) extension file must be in .PNG'])[1]/following::p[1]</value>
+      <webElementGuid>87ab8127-5d8a-4063-b09e-6c07770b516c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Person'])[1]/preceding::p[1]</value>
+      <webElementGuid>bb973015-6dac-49f7-b0f3-884b6b773198</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='File must be PNG format']/parent::*</value>
+      <webElementGuid>9eb4912f-9b66-4977-8157-4daf732e9d5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[14]/p</value>
+      <webElementGuid>931888a6-0af5-4b80-b5fa-0871035175af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'component-error-text' and (text() = 'File must be PNG format' or . = 'File must be PNG format')]</value>
+      <webElementGuid>88e32e7b-4f62-4c6c-b88d-da66c2e3de89</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get List SP with valid filter Search All</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2cf0e3f-6235-484c-83e3-b73c92b554c1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ed010019-2037-41a0-99f2-089fe1f71c96</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ed010019-2037-41a0-99f2-089fe1f71c96</id>
+      <masked>false</masked>
+      <name>validData</name>
+   </variable>
+</TestCaseEntity>

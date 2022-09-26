@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Company Detailsarrow_drop_downCompany I_134a52</name>
+   <tag></tag>
+   <elementGuidId>3a33daf6-d256-4715-8e52-48c2bf5a0f0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation1.MuiAccordion-root.Mui-expanded.css-ydt79c</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9fc1c859-f0db-4bc4-afd4-6640c59a0c4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiAccordion-root Mui-expanded css-ydt79c</value>
+      <webElementGuid>cf72670c-3526-47b0-b6ee-4cecae961b22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>accordion-add-service-provider-company-details</value>
+      <webElementGuid>15696210-1d0d-4158-946b-fc5a1131f1e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Company Detailsarrow_drop_downCompany IDCompany Name *Email *Phone Number *CountryIndonesiaProvince *SUMATERA UTARACity *MEDANPost CodeAddressCompany Document *SIUPNPWP *Company Tax *PKPNon-PKPType Of Service *Full Truck Load help_outlineLess Truck Load help_outlineCompany Logo *minimum image size 100 x 100 (max. 200 Kb) extension file must be in .PNGUpload Company Logo</value>
+      <webElementGuid>be8c2c49-eb16-447f-907e-9d8617f52770</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-4rrr9a&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container css-1cn3yto&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-8 css-1srxrdd&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiAccordion-root Mui-expanded css-ydt79c&quot;]</value>
+      <webElementGuid>e75d5e54-3371-42cf-892c-2106791d3b6c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div[2]/div/div</value>
+      <webElementGuid>4c0c9cab-8f05-4f8e-8684-e82f99edfd06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div[2]/div/div</value>
+      <webElementGuid>247e9885-d07a-4765-95aa-b36228169bc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Company Detailsarrow_drop_downCompany IDCompany Name *Email *Phone Number *CountryIndonesiaProvince *SUMATERA UTARACity *MEDANPost CodeAddressCompany Document *SIUPNPWP *Company Tax *PKPNon-PKPType Of Service *Full Truck Load help_outlineLess Truck Load help_outlineCompany Logo *minimum image size 100 x 100 (max. 200 Kb) extension file must be in .PNGUpload Company Logo' or . = 'Company Detailsarrow_drop_downCompany IDCompany Name *Email *Phone Number *CountryIndonesiaProvince *SUMATERA UTARACity *MEDANPost CodeAddressCompany Document *SIUPNPWP *Company Tax *PKPNon-PKPType Of Service *Full Truck Load help_outlineLess Truck Load help_outlineCompany Logo *minimum image size 100 x 100 (max. 200 Kb) extension file must be in .PNGUpload Company Logo')]</value>
+      <webElementGuid>3d645562-552c-4569-90b2-d1fa6c75dbb9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

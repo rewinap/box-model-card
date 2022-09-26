@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>body_Company Details</name>
+   <tag></tag>
+   <elementGuidId>83e42bc5-0035-46ff-b8e2-7008cae9df5d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div[2]/div[2]/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9f74c8ca-7cce-4688-a73e-fbfbbc4084d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-alznhl</value>
+      <webElementGuid>7b58ae3e-b9a1-4136-88af-847e3aa0aa59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>card-company-details-service-provider</value>
+      <webElementGuid>d1c880f2-03b2-4d5f-8ca8-347bbdfd5b14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Company DetailsCompany IDIDN0106Company Nametest2agustus2Company Emailtestheheheh16@gmail.comCompany Phone Number0812313123CountryIndonesiaCountryJAWA BARATCityBOGOR KABUPATENPost CodeAddressCompany DocumentSIUP - 1233242NPWP123123569123123Company TaxNON-PKPType Of ServiceLess Truck Load, Full Truck Load</value>
+      <webElementGuid>cd117602-39b6-49fc-8bd5-d951da086830</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-4rrr9a&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-1h77wgb&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-lg-4.5 css-1tzjnn7&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-1h77wgb&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-lg-12 css-1fppow5&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-alznhl&quot;]</value>
+      <webElementGuid>7df2ae02-c6cc-44e8-b88c-7d653d3343a2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div[2]/div[2]/div/div[2]/div</value>
+      <webElementGuid>a819b306-44fb-4a4d-a945-100dc3b8467c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Company Logo'])[1]/following::div[3]</value>
+      <webElementGuid>daebb74d-c9b7-49c2-806d-8463d833d85e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company Logo'])[1]/following::div[6]</value>
+      <webElementGuid>0acea79f-e9d5-481c-a4e0-432aedd1f823</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Person Details'])[1]/preceding::div[17]</value>
+      <webElementGuid>dea99c79-93ab-4620-93c2-7a39d1083b0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div</value>
+      <webElementGuid>c7e66f5f-1783-497b-920a-517db9e53450</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Company DetailsCompany IDIDN0106Company Nametest2agustus2Company Emailtestheheheh16@gmail.comCompany Phone Number0812313123CountryIndonesiaCountryJAWA BARATCityBOGOR KABUPATENPost CodeAddressCompany DocumentSIUP - 1233242NPWP123123569123123Company TaxNON-PKPType Of ServiceLess Truck Load, Full Truck Load' or . = 'Company DetailsCompany IDIDN0106Company Nametest2agustus2Company Emailtestheheheh16@gmail.comCompany Phone Number0812313123CountryIndonesiaCountryJAWA BARATCityBOGOR KABUPATENPost CodeAddressCompany DocumentSIUP - 1233242NPWP123123569123123Company TaxNON-PKPType Of ServiceLess Truck Load, Full Truck Load')]</value>
+      <webElementGuid>6875bf44-3b0e-40e1-86db-bc5ffc8d95a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

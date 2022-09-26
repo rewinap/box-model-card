@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Edit PostCode with Invalid Input</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>835ee925-ca89-44a3-a355-0026fd589e98</testSuiteGuid>
+   <testCaseLink>
+      <guid>a19d5980-3161-4c03-bba8-50043d5bde92</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Service Provider -Internal TMS/Integrate Internal - Invalid Edit SP/4_Edit Company Postcode_Inv</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d0d67e78-627a-4269-b071-1fcc398bfcf8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Invalid Edit SP/Invalid PostalCode</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>067f60ee-5ec3-444b-823c-3bbd77cae8ba</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d037ad88-68cf-4e2c-b841-d260db544bd9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4b198d68-450f-4dbf-a3d2-a2c1be5bbfea</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d0d67e78-627a-4269-b071-1fcc398bfcf8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PostCode</value>
+         <variableId>97f851bc-e89b-43f5-8f33-410006f2f6b8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8d845f05-83bf-497d-80ad-625016781e3f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

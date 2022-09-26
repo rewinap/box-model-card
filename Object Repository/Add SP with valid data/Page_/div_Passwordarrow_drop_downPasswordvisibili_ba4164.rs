@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Passwordarrow_drop_downPasswordvisibili_ba4164</name>
+   <tag></tag>
+   <elementGuidId>3ca73b46-4ca9-4f41-b4f8-43cca0850216</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/main/div[2]/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c6ccd3ca-8b43-4314-a0d8-d93c705c742f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiAccordion-root css-ydt79c</value>
+      <webElementGuid>8e110748-f67b-4456-94e0-56eda94bbbf4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>accordion-add-service-provider-password</value>
+      <webElementGuid>9b45f66a-26aa-410f-81f8-b5a4921f5f2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Passwordarrow_drop_downPassword *​visibility_offConfirmation Password *​visibility_off</value>
+      <webElementGuid>1a40b58a-4621-4776-b2b3-68dd8dd98a13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;MuiBox-root css-k008qs&quot;]/main[@class=&quot;MuiBox-root css-4rrr9a&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container css-1cn3yto&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-8 css-1srxrdd&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-elevation1 MuiAccordion-root css-ydt79c&quot;]</value>
+      <webElementGuid>6a464d1a-2948-4151-8c50-44cdaa54f89e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/main/div[2]/div/div[3]</value>
+      <webElementGuid>f1420fc1-1bf1-42b9-8e3e-9d4a0475c556</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]</value>
+      <webElementGuid>5dd9399e-5066-44ae-9b3a-c05b48caa42b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Passwordarrow_drop_downPassword *​visibility_offConfirmation Password *​visibility_off' or . = 'Passwordarrow_drop_downPassword *​visibility_offConfirmation Password *​visibility_off')]</value>
+      <webElementGuid>3e5bb5e4-19ca-4cdf-986c-5bb2cfbbd23b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

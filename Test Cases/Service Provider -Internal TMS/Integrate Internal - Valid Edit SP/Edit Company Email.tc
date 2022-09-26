@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Company Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb68b078-c5fb-44de-a2b7-a397d7ac1ffc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c2a3e45d-7a46-4a67-b964-2c08e5734d2a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'SPTestingdiedit lagi5@gmail.com'</defaultValue>
+      <description></description>
+      <id>c2a3e45d-7a46-4a67-b964-2c08e5734d2a</id>
+      <masked>false</masked>
+      <name>Cemail</name>
+   </variable>
+</TestCaseEntity>
